@@ -1,4 +1,4 @@
-<%@include file="/libs/foundation/global.jsp"%><%
+<%@include file="/apps/allstate/global.jsp"%><%
 %>
 
  <div class="ls-row LayoutBody" id="bodyContainer">

@@ -1,4 +1,4 @@
-<%@include file="/libs/foundation/global.jsp"%>
+<%@include file="/apps/allstate/global.jsp"%>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:autn="Allstate.MicroSites.Web.UserControls" xmlns:ajaxToolkit="AjaxControlToolkit" xmlns:asp="System.Web.UI.WebControls" lang="en" xml:lang="en">
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />

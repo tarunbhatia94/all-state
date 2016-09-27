@@ -1,5 +1,5 @@
 <%@page session="false"%>
-<%@include file="/libs/foundation/global.jsp" %>
+<%@include file="/apps/allstate/global.jsp" %>
 <%@ page import="com.day.cq.commons.Doctype" %>
 <%
     String xs = Doctype.isXHTML(request) ? "/" : "";

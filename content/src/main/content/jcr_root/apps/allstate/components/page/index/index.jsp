@@ -1,14 +1,8 @@
-<%--
+<%@include file="/apps/allstate/global.jsp"%>
+<%@page session="false" %>
 
-  landingPage component.
+<cq:include script="header.jsp"/>
+<cq:include script="content.jsp"/>
+<cq:include script="footer.jsp"/>
 
-  Allstate Landing page
 
---%><%
-%><%@include file="/libs/foundation/global.jsp"%><%
-%><%@page session="false" %><%
-%><%
-	// TODO add you code here
-%>
-<cq:include path="header" resourceType="allstate/components/page/header"/>
-<cq:include path="footer" resourceType="allstate/components/page/footer"/>
