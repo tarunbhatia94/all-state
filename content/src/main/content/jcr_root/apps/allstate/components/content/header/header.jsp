@@ -186,8 +186,9 @@
                 <div class="IconTopNav">
                 <!-- Contains Logo, get a quote, and mainmenu  -->
                   <div id="MainNav">
-                  <!-- Logo COmponent -->                  
-                   <a href="#" target="_top" class="headerLogo"><img src='/etc/clientlibs/allstate/images/logo.png' alt='Allstate Insurance Company Logo' name='&amp;lpos=IconTopNavigation'></a>
+                  <!-- Logo COmponent --> 
+
+                      <cq:include path="logo" resourceType="allstate/components/global/logo" />
                     <div id="GetAQuote" class="quoteHead">
                     <!-- Quote component --> 
                       <a class="getQuoteLnk" href="#">Get a Quote?</a> 
