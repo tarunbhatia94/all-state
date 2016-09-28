@@ -70,8 +70,8 @@
                         <li class="tophatrowtitle  tophatrownotfirst  "> <a href="about.html" target="_top"  onclick="ProcessMetrics('ExploreLink', ['Company Overview']);">Company Overview</a> </li>
                         <li>
                           <ul>
-                            <li class="tophatrowitem"><a href="https://ourstory.allstate.com/" target="_blank" onclick="ProcessMetrics('ExploreLink', ['Our Story']);">Our Story</a></li>
-                            <li class="tophatrowitem"><a href="https://goodlife.allstate.com/goodhome/" target="_blank" onclick="ProcessMetrics('ExploreLink', ['Good Home']);">Good Home</a></li>
+                            <li class="tophatrowitem"><a href="#" target="_blank" onclick="ProcessMetrics('ExploreLink', ['Our Story']);">Our Story</a></li>
+                            <li class="tophatrowitem"><a href="#" target="_blank" onclick="ProcessMetrics('ExploreLink', ['Good Home']);">Good Home</a></li>
                             <li class="tophatrowitem"><a href="http://blog.allstate.com/" target="_blank" onclick="ProcessMetrics('ExploreLink', ['The Allstate Blog']);">The Allstate Blog</a></li>
                             <li class="tophatrowitem"><a href="#" target="_top" onclick="ProcessMetrics('ExploreLink', ['Careers']);">Careers</a></li>
                           </ul>
@@ -189,43 +189,16 @@
                   <div id="MainNav">
                   <!-- Logo COmponent -->                  
                        <cq:include path="logo" resourceType="allstate/components/global/logo" />
-                    <div id="GetAQuote" class="quoteHead">
-                    <!-- Quote component --> 
-                      <a class="getQuoteLnk" href="#">Get a Quote?</a> 
 
-                      <!-- papoup here-->
+                 <!-- getaquote COmponent -->  
+                  <cq:include path="getaquote" resourceType="allstate/components/content/getaquote" />
 
-                      <div class="quoteDrop">
-                        <div class="quoteLoc">
-                          <p>Enter a valid US ZIP Code to set your location.</p>
-                          <a class="zipEdit" href="#" onclick="$(Global.zipCodeOverlayIdentifier).data('component','IconTopNavigation').dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);">Edit</a> </div>
-                        <div class="quoteSelect">
-                          <h3>Select a product to get a quote.<br />
-                            <a href="https://purchase.allstate.com/onlinesalesweb/app/retrievequote/" class="quote_retrieve" name="&amp;lpos=IconTopNavigation">Retrieve a saved quote</a></h3>
-                          <dl>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Au','quoteCampaign':'/home/home.aspx?fake=|quote_box|Au','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Au" name="&lpos=IconTopNavigation"> <span>Auto</span> </a> </dd>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Ho','quoteCampaign':'/home/home.aspx?fake=|quote_box|Ho','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Ho" name="&lpos=IconTopNavigation"> <span>Home</span> </a> </dd>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Re','quoteCampaign':'/home/home.aspx?fake=|quote_box|Re','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Re" name="&lpos=IconTopNavigation"> <span>Renters</span> </a> </dd>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Li','quoteCampaign':'/home/home.aspx?fake=|quote_box|Li','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Li" name="&lpos=IconTopNavigation"> <span>Life</span> </a> </dd>
-                          </dl>
-                          <dl>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Co','quoteCampaign':'/home/home.aspx?fake=|quote_box|Co','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Co" name="&lpos=IconTopNavigation"> <span>Condo</span> </a> </dd>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Mo','quoteCampaign':'/home/home.aspx?fake=|quote_box|Mo','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Mo" name="&lpos=IconTopNavigation"> <span>Motorcycle</span> </a> </dd>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'Bo','quoteCampaign':'/home/home.aspx?fake=|quote_box|Bo','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_Bo" name="&lpos=IconTopNavigation"> <span>Boat</span> </a> </dd>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'RV','quoteCampaign':'/home/home.aspx?fake=|quote_box|RV','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_RV" name="&lpos=IconTopNavigation"> <span>ATV/Rec. Vehicle</span> </a> </dd>
-                          </dl>
-                          <dl>
-                            <dd> <a href="#" onclick="$(Global.zipCodeOverlayIdentifier).data({'quoteProduct':'BI','quoteCampaign':'/home/home.aspx?fake=|quote_box|BI','component':'ResponsiveTopNavigation', 'quoteMobile': 'Y'}).dialog('open');ProcessMetrics('ZipOverlayEdit', ['Zip Overlay Edit', 'IconTopNavigation']);" class="quote_BI" name="&lpos=IconTopNavigation"> <span>Business Insurance</span> </a> </dd>
-                            <dd> <a href="#" onclick="window.location.href = 'insurance/all-insurance-productsc20c.html?zip=&amp;product=Mr&amp;intcid=/home/home.aspx|quote_box|Mr';" class="quote_Mr" name="&lpos=IconTopNavigation"> <span>More Insurance</span> </a> </dd>
-                            <dd> <a href="#" onclick="window.location.href = 'https://agents.allstate.com?zipcode=&amp;language=english&amp;intcid=/home/home.aspx|quote_box|Fi';" class="quote_Fi" name="&lpos=IconTopNavigation"> <span>Find An Agent</span> </a> </dd>
-                          </dl>
-                        </div>
-                        <div class="quoteDropBtm"></div>
-                      </div>
 
-                      <!-- papoup Ends here--> 
 
-                    </div>
+
+
+
+
                     <div class="allRowBg"></div>
                     <ul id="MainMenu">
                     <!-- MainMenu component -->
@@ -458,93 +431,6 @@
                             <li><a href="#" name="&lpos=RWDNavigation">Retirement & Investments</a></li>
                             <li><a href="#" name="&lpos=RWDNavigation">Power Sports</a></li>
                             <li><a href="#" name="&lpos=RWDNavigation">Business Insurance</a></li>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
                             </ul>

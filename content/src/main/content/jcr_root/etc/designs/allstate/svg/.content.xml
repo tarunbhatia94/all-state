@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content jcr:primaryType="nt:unstructured">
+        <folderThumbnail/>
+    </jcr:content>
+    <acct-nav-arrow.svg/>
+    <drop-nav-shadow.svg/>
+    <get-a-quote-es.svg/>
+    <get-a-quote-mobile.svg/>
+    <get-a-quote-mobile-es.svg/>
+    <nav-shadow.svg/>
+    <img_trans.gif/>
+    <lock.svg/>
+    <get-a-quote.svg/>
+    <nav-closed.png/>
+    <pin.svg/>
+    <quote_selection.svg/>
+    <quote-btm-shadow.svg/>
+</jcr:root>
