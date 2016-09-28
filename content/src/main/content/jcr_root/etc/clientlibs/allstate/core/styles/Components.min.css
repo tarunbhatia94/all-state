@@ -3,15 +3,15 @@
 }
 @font-face {
 	font-family: brandedFontBold;
-	src: url(https://resources.allstate.com/fonts/ITCAvantGardeGothicW01Bd.woff) format('woff')
+	src: url(https://resources.allstate.com/fonts/ITCAvantGardeGothicW01Bd.woff) format('woff');
 }
 @font-face {
 	font-family: brandedFontXlight;
-	src: url(https://resources.allstate.com/fonts/ITCAvantGardeGothicW01XLt.woff) format('woff')
+	src: url(https://resources.allstate.com/fonts/ITCAvantGardeGothicW01XLt.woff) format('woff');
 }
 @font-face {
 	font-family: brandedFontBk;
-	src: url(https://resources.allstate.com/fonts/ITCAvantGardeGothicW01Bk.woff) format('woff')
+	src: url(https://resources.allstate.com/fonts/ITCAvantGardeGothicW01Bk.woff) format('woff');
 }
 .avanteFontBold {
 	font-family: brandedFontBold
@@ -1034,8 +1034,9 @@ img {
 	min-width: 100%;
 	background: #14477e;
 	z-index: 90;
-	position: absolute;
-	left: 0
+	position: relative;
+	left: 0;
+	padding-top: 30px;
 }
 .Drawer .drawerInner {
 	margin: 0 auto;
@@ -1453,12 +1454,12 @@ img {
 	background-position: 0 -43px
 }
 @-moz-document url-prefix() {
-.Drawer .quoteHead .getQuoteLnk:focus {
-outline-color:#000
-}
-.Drawer .quoteHead .getQuoteLnkES:focus {
-outline-color:#000
-}
+	.Drawer .quoteHead .getQuoteLnk:focus {
+		outline-color:#000
+	}
+	.Drawer .quoteHead .getQuoteLnkES:focus {
+		outline-color:#000
+	}
 }
 .Drawer .quoteHead, .quoteDrawer {
 	position: relative;
@@ -2476,24 +2477,24 @@ outline-color:#000
 	font-weight: 700
 }
 ::-webkit-input-placeholder {
-font:Arial Regular;
-font-size:22px;
-color:#7f7f7f
+	font:Arial Regular;
+	font-size:22px;
+	color:#7f7f7f
 }
 :-moz-placeholder {
-font:Arial Regular;
-font-size:22px;
-color:#7f7f7f
+	font:Arial Regular;
+	font-size:22px;
+	color:#7f7f7f
 }
 ::-moz-placeholder {
-font:Arial Regular;
-font-size:22px;
-color:#7f7f7f
+	font:Arial Regular;
+	font-size:22px;
+	color:#7f7f7f
 }
 :-ms-input-placeholder {
-font:Arial Regular;
-font-size:22px;
-color:#7f7f7f
+	font:Arial Regular;
+	font-size:22px;
+	color:#7f7f7f
 }
 .IconTabbedContent .prod-nav {
 	list-style: none;
@@ -4570,8 +4571,8 @@ color:#7f7f7f
 	-moz-appearance: textfield
 }
 .ZipCodeOverlay .Content input[type=number]::-webkit-inner-spin-button, .ZipCodeOverlay .Content input[type=number]::-webkit-outer-spin-button {
--webkit-appearance:none;
-margin:0
+	-webkit-appearance:none;
+	margin:0
 }
 .ZipCodeOverlay .Content .ZipCodeColumn {
 	float: left;
@@ -5379,2569 +5380,2569 @@ margin:0
 	display: none
 }
 @media screen and (max-width:1200px) {
-.MiddleNavigation .getQuote {
-	font-size: 1em
-}
-.MiddleNavigation .navIcons li {
-	padding-left: 34px
-}
-.MiddleNavigation .quoteType {
-	width: 153px;
-	font-size: 1em
-}
-.MiddleNavigation .quoteCTA {
-	padding-left: 64px
-}
-.NavigationFooter .companyLogo {
-	width: 33%
-}
-.NavigationFooter .footerNav {
-	padding: 20px
-}
-.NavigationFooter .quoteCTA {
-	width: 90%;
-	max-width: 657px;
-	margin: auto;
-	float: none;
-	padding: 0
-}
-.NavigationFooter .findAgent {
-	width: 50%;
-	max-width: 265px;
-	margin-top: -65px;
-	line-height: 25px;
-	float: right
-}
-.NavigationFooter .quoteType {
-	width: 212px;
-	border-radius: 6px 0 0 6px;
-	box-sizing: border-box
-}
-.NavigationFooter .getQuote {
-	width: 150px;
-	border-radius: 0 6px 6px 0;
-	box-sizing: border-box
-}
-.NavigationFooter .quoteLink {
-	max-width: 100%;
-	margin-bottom: 0
-}
-.NavigationFooter .centerColumns {
-	width: 61%
-}
-.NavigationFooter .cColumn {
-	max-width: 265px
-}
-.NavigationFooter .bottomLinks {
-	margin-top: 0;
-	margin-right: 0;
-	width: 96%
-}
-.NavigationFooter .bottomLinks li {
-	padding-right: 2%!important
-}
-.NavigationFooter .firstLink {
-	padding-left: 0
-}
-.NavigationFooter .agentCTA {
-	width: 90%;
-	max-width: 300px;
-	margin: auto;
-	float: none;
-	padding: 0
-}
-.NavigationFooter .agentMap {
-	display: inline-block
-}
-.NavigationFooter .agent-nav {
-	display: block;
-	width: 100%;
-	margin: auto;
-	text-align: left
-}
-.SmallFreeTextScroller .SmallFreeTextScrollerHeader {
-	padding-left: 52px
-}
-.SmallFreeTextScroller .sfts-home-carousel ul {
-	max-width: 434px
-}
-.SmallFreeTextScroller .sfts-slides-outer {
-	float: left;
-	min-width: 434px
-}
-.SmallFreeTextScroller .sfts-home-carousel li {
-	padding-left: 35px
-}
+	.MiddleNavigation .getQuote {
+		font-size: 1em
+	}
+	.MiddleNavigation .navIcons li {
+		padding-left: 34px
+	}
+	.MiddleNavigation .quoteType {
+		width: 153px;
+		font-size: 1em
+	}
+	.MiddleNavigation .quoteCTA {
+		padding-left: 64px
+	}
+	.NavigationFooter .companyLogo {
+		width: 33%
+	}
+	.NavigationFooter .footerNav {
+		padding: 20px
+	}
+	.NavigationFooter .quoteCTA {
+		width: 90%;
+		max-width: 657px;
+		margin: auto;
+		float: none;
+		padding: 0
+	}
+	.NavigationFooter .findAgent {
+		width: 50%;
+		max-width: 265px;
+		margin-top: -65px;
+		line-height: 25px;
+		float: right
+	}
+	.NavigationFooter .quoteType {
+		width: 212px;
+		border-radius: 6px 0 0 6px;
+		box-sizing: border-box
+	}
+	.NavigationFooter .getQuote {
+		width: 150px;
+		border-radius: 0 6px 6px 0;
+		box-sizing: border-box
+	}
+	.NavigationFooter .quoteLink {
+		max-width: 100%;
+		margin-bottom: 0
+	}
+	.NavigationFooter .centerColumns {
+		width: 61%
+	}
+	.NavigationFooter .cColumn {
+		max-width: 265px
+	}
+	.NavigationFooter .bottomLinks {
+		margin-top: 0;
+		margin-right: 0;
+		width: 96%
+	}
+	.NavigationFooter .bottomLinks li {
+		padding-right: 2%!important
+	}
+	.NavigationFooter .firstLink {
+		padding-left: 0
+	}
+	.NavigationFooter .agentCTA {
+		width: 90%;
+		max-width: 300px;
+		margin: auto;
+		float: none;
+		padding: 0
+	}
+	.NavigationFooter .agentMap {
+		display: inline-block
+	}
+	.NavigationFooter .agent-nav {
+		display: block;
+		width: 100%;
+		margin: auto;
+		text-align: left
+	}
+	.SmallFreeTextScroller .SmallFreeTextScrollerHeader {
+		padding-left: 52px
+	}
+	.SmallFreeTextScroller .sfts-home-carousel ul {
+		max-width: 434px
+	}
+	.SmallFreeTextScroller .sfts-slides-outer {
+		float: left;
+		min-width: 434px
+	}
+	.SmallFreeTextScroller .sfts-home-carousel li {
+		padding-left: 35px
+	}
 }
 @media screen and (max-width:979px) {
-.AgentsNearYou .AGYOuter {
-	width: 550px;
-	margin: auto
-}
-.AgentsNearYou .agentAddressDiv {
-	width: 100%;
-	float: left;
-	padding: 15px 0 0 10px;
-	display: inline-block
-}
-.AgentsNearYou .agentsFindMessage, .AgentsNearYou .anyHeader {
-	padding-left: 55px
-}
-.AgentsNearYou .agentAddressIcon {
-	display: none
-}
-.AgentsNearYou .agentListing {
-	min-width: 445px
-}
-.AgentsNearYou .agentListing li {
-	width: 445px
-}
-.AgentsNearYou .anyAgentsLeft, .AgentsNearYou .anyAgentsRight {
-	width: 10%;
-	min-width: 32px;
-	margin-top: 50px;
-	display: inline-block
-}
-.AgentsNearYou .anyAgentsLeft {
-	float: left
-}
-.AgentsNearYou .anyAgentsRight {
-	float: right
-}
-.AgentsNearYou .anyAgents {
-	float: left;
-	width: 80%
-}
-.AgentsNearYou .slides-nav-out-agentsnearyou {
-	display: inline-block;
-	margin: auto;
-	width: 100%
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactEmail, .AgentsNearYou .agentContactIconsBottom .agentContactPhone, .AgentsNearYou .agentContactIconsBottom .agentContactWebsite {
-	padding-top: 0;
-	margin-right: 3px
-}
-.AgentsNearYou .agent-nav, .AgentsNearYou .agentContactIcons {
-	display: none
-}
-.AgentsNearYou .agentContactIconsBottom {
-	display: inline-block;
-	float: left;
-	width: 100%
-}
-.AgentsNearYou .agentContactIconsBottom ul {
-	float: left;
-	width: 100%;
-	max-height: 58px
-}
-.AgentsNearYou .agentContactIconsBottom ul li {
-	width: 50px
-}
-.AgentsNearYou .agentContactIconsBottom .thDImage {
-	width: 50px;
-	height: 50px
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactPhone img {
-	background-position: -43px -404px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactPhone img:hover {
-	background-position: -43px -484px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactEmail img {
-	background-position: -135px -404px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactEmail img:hover {
-	background-position: -135px -484px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactFacebook, .AgentsNearYou .agentContactIconsBottom .agentContactTweeter {
-	padding-top: 0;
-	margin-right: 1px
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img {
-	background-position: -224px -404px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img:hover {
-	background-position: -224px -484px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactFacebook img {
-	background-position: -316px -404px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactFacebook img:hover {
-	background-position: -316px -484px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactTweeter img {
-	background-position: -407px -404px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactTweeter img:hover {
-	background-position: -407px -484px!important
-}
-.AgentsNearYou .anyMoreAgents {
-	display: none
-}
-.AgentsNearYou .agentName {
-	padding-top: 15px;
-	max-width: 320px
-}
-.AgentsNearYou .slides-inner-agentsnearyou {
-	min-height: 222px
-}
-.AgentsNearYou .slides_next-agentsnearyou, .AgentsNearYou .slides_prev-agentsnearyou {
-	display: block;
-	height: 36px;
-	width: 18px;
-	cursor: pointer;
-	background: url(/resources/images/slides-prev-next.svg) no-repeat;
-	text-indent: -9999px;
-	text-decoration: none;
-	margin: 50px auto 0
-}
-.AgentsNearYou .slides_next-agentsnearyou {
-	background-position: -18px 0
-}
-.AgentsNearYou .slides-nav-agentsnearyou {
-	display: inline-block;
-	width: 100%;
-	margin: auto;
-	text-align: center;
-	padding-left: 10px
-}
-.AgentsNearYou .slides-nav-agentsnearyou a {
-	display: inline-block;
-	padding: 17px;
-	height: 10%;
-	width: 2%;
-	text-indent: -9999px;
-	background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
-	outline-style: none
-}
-.AgentsNearYou .slides-nav-agentsnearyou a.activeSlide {
-	background-position: 0 0
-}
-.AgentReviews {
-	margin-top: 0!important;
-	margin-left: 0!important
-}
-.HeroBanner .quoteType {
-	width: 215px;
-	margin-bottom: 1px
-}
-.HeroBanner .getQuote {
-	width: 215px;
-	margin-top: 1px
-}
-.HeroBanner .freeTextBar, .HeroBanner .quoteCTA {
-	width: 267px!important;
-	margin-right: 0!important;
-	margin-left: 0!important
-}
-.HeroBanner .quoteCTA {
-	height: 391px;
-	float: left
-}
-.HeroBanner .title {
-	padding-top: 50px;
-	padding-bottom: 29px;
-	font-size: 2.65em
-}
-.HeroBanner .freeTextTitle {
-	font-size: 2.65em;
-	padding-top: 65px;
-	padding-bottom: 29px
-}
-.HeroBanner .freeTextBar .title {
-	padding-top: 79px
-}
-.HeroBanner .retrieveQuoteLink {
-	margin-bottom: 65px
-}
-.HeroBanner .subTitle {
-	font-size: 1.2em;
-	margin-bottom: 25px
-}
-.HeroBanner .coverageOptions {
-	margin-bottom: 76px
-}
-.HeroBanner .loginBar {
-	width: 338px;
-	margin-right: 0!important;
-	margin-left: 0!important
-}
-.HeroBanner .registerLink {
-	margin-bottom: 60px
-}
-.HeroBanner .forgotID {
-	margin-bottom: 56px;
-	padding-right: 12px
-}
-.HeroBanner .forgotPassword {
-	padding-left: 12px
-}
-.MiddleNavigation .navIcons {
-	min-width: 430px;
-	max-width: 430px;
-	overflow: auto;
-	text-align: left
-}
-.MiddleNavigation .navIcons a figcaption {
-	float: left;
-	text-align: left;
-	min-width: 84px;
-	padding-left: 5px
-}
-.MiddleNavigation .navIcon img {
-	width: 46px;
-	height: 46px;
-	float: left
-}
-.MiddleNavigation .navIcons li {
-	padding-left: 10px
-}
-.MiddleNavigation .navIcons li:nth-child(3n+1) {
-	padding-left: 0
-}
-.MiddleNavigation .navIcons li:nth-child(n+4) {
-	padding-top: 19px
-}
-.MiddleNavigation .quoteCTA {
-	padding-left: 10px
-}
-.NavigationFooter .quoteCTA {
-	width: 90%;
-	padding-left: 0;
-	padding-right: 0
-}
-.NavigationFooter .findAgent {
-	width: 50%;
-	max-width: 265px;
-	box-sizing: border-box
-}
-.NavigationFooter .companyLogo {
-	float: none;
-	width: 100%;
-	padding-top: 20px;
-	margin-top: 0;
-	box-sizing: border-box
-}
-.NavigationFooter .companyLogo .cLogo, .NavigationFooter .firstLink {
-	padding-left: 0
-}
-.NavigationFooter .centerColumns {
-	width: 90%;
-	margin: auto
-}
-.NavigationFooter .cColumn {
-	width: 33%
-}
-.NavigationFooter .bottomLinks {
-	width: 95%
-}
-.NavigationFooter .bottomLinks li {
-	text-align: center;
-	padding-right: 3%!important
-}
-.NavigationFooter .agentAddressDiv {
-	padding-left: 10px
-}
-.NavigationFooter .agentCTA {
-	width: 90%;
-	max-width: 350px;
-	padding-left: 0;
-	padding-right: 0
-}
-.NavigationFooter .agentCTA h4 {
-	text-align: center
-}
-.NavigationFooter .agentListing {
-	min-height: 205px
-}
-.NavigationFooter .agent-nav {
-	display: none
-}
-.NavigationFooter .socialLinks {
-	border-bottom: 1px solid #e7e7e7;
-	padding-bottom: 35px
-}
-.NavigationFooter .connectWithUs {
-	border-top: 1px solid #e7e7e7;
-	padding-top: 35px;
-	box-sizing: border-box
-}
-.NavigationFooter .copyRight {
-	padding-bottom: 35px;
-	margin-top: 0;
-	margin-bottom: 0
-}
-.NavigationFooter .NFAgentLeft {
-	width: 18px;
-	display: block;
-	float: left
-}
-.NavigationFooter .NFAgentRight {
-	width: 18px;
-	display: block;
-	float: right
-}
-.NavigationFooter .slides_next-navfooter, .NavigationFooter .slides_prev-navfooter {
-	display: block;
-	height: 36px;
-	width: 18px;
-	cursor: pointer;
-	background: url(/resources/images/slides-prev-next.svg) no-repeat;
-	text-indent: -9999px;
-	text-decoration: none;
-	margin: 50px auto 0
-}
-.NavigationFooter .slides_next-navfooter {
-	background-position: -18px 0
-}
-.NavigationFooter .slides-nav-navfooter {
-	display: inline-block;
-	width: 100%;
-	margin: auto;
-	text-align: center;
-	padding-left: 10px
-}
-.NavigationFooter .slides-nav-navfooter a {
-	display: inline-block;
-	padding: 17px;
-	height: 10%;
-	width: 2%;
-	text-indent: -9999px;
-	background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
-	outline-style: none
-}
-.NavigationFooter .agentContactIconsBottom .agentContactEmail, .NavigationFooter .agentContactIconsBottom .agentContactPhone, .NavigationFooter .agentContactIconsBottom .agentContactWebsite {
-	padding-top: 0;
-	margin-right: 3px
-}
-.NavigationFooter .slides-nav-navfooter a.activeSlide {
-	background-position: 0 0
-}
-.NavigationFooter .agentList {
-	margin-left: 7px
-}
-.NavigationFooter .agentContactIcons {
-	display: none
-}
-.NavigationFooter .agentContactIconsBottom {
-	display: inline-block;
-	float: left;
-	width: 100%
-}
-.NavigationFooter .agentContactIconsBottom ul {
-	float: left;
-	width: 100%;
-	max-height: 58px
-}
-.NavigationFooter .agentContactIconsBottom ul li {
-	width: 50px
-}
-.NavigationFooter .agentContactIconsBottom .thDImage {
-	width: 50px;
-	height: 50px
-}
-.NavigationFooter .agentContactIconsBottom .agentContactPhone img {
-	background-position: -43px -404px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactPhone img:hover {
-	background-position: -43px -484px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactEmail img {
-	background-position: -135px -404px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactEmail img:hover {
-	background-position: -135px -484px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactFacebook, .NavigationFooter .agentContactIconsBottom .agentContactTweeter {
-	padding-top: 0;
-	margin-right: 1px
-}
-.NavigationFooter .agentContactIconsBottom .agentContactWebsite img {
-	background-position: -224px -404px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactWebsite img:hover {
-	background-position: -224px -484px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactFacebook img {
-	background-position: -316px -404px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactFacebook img:hover {
-	background-position: -316px -484px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactTweeter img {
-	background-position: -407px -404px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactTweeter img:hover {
-	background-position: -407px -484px!important
-}
-.SmallFreeTextScroller {
-	margin-top: 0
-}
-.SmallFreeTextScroller .SmallFreeTextScrollerHeader {
-	padding-left: 27px
-}
-.SmallFreeTextScroller .SFTSOuter {
-	max-width: 550px;
-	width: 100%;
-	margin: auto
-}
-.SmallFreeTextScroller .sfts-slides-outer {
-	min-width: 500px
-}
-.SmallFreeTextScroller .sfts-home-carousel ul {
-	max-width: 500px
-}
-.SmallFreeTextScroller .sfts-home-carousel li {
-	padding-left: 10px
-}
-.SmallFreeTextScroller .sfts-slide-right-arrow {
-	margin-left: 0
-}
+	.AgentsNearYou .AGYOuter {
+		width: 550px;
+		margin: auto
+	}
+	.AgentsNearYou .agentAddressDiv {
+		width: 100%;
+		float: left;
+		padding: 15px 0 0 10px;
+		display: inline-block
+	}
+	.AgentsNearYou .agentsFindMessage, .AgentsNearYou .anyHeader {
+		padding-left: 55px
+	}
+	.AgentsNearYou .agentAddressIcon {
+		display: none
+	}
+	.AgentsNearYou .agentListing {
+		min-width: 445px
+	}
+	.AgentsNearYou .agentListing li {
+		width: 445px
+	}
+	.AgentsNearYou .anyAgentsLeft, .AgentsNearYou .anyAgentsRight {
+		width: 10%;
+		min-width: 32px;
+		margin-top: 50px;
+		display: inline-block
+	}
+	.AgentsNearYou .anyAgentsLeft {
+		float: left
+	}
+	.AgentsNearYou .anyAgentsRight {
+		float: right
+	}
+	.AgentsNearYou .anyAgents {
+		float: left;
+		width: 80%
+	}
+	.AgentsNearYou .slides-nav-out-agentsnearyou {
+		display: inline-block;
+		margin: auto;
+		width: 100%
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactEmail, .AgentsNearYou .agentContactIconsBottom .agentContactPhone, .AgentsNearYou .agentContactIconsBottom .agentContactWebsite {
+		padding-top: 0;
+		margin-right: 3px
+	}
+	.AgentsNearYou .agent-nav, .AgentsNearYou .agentContactIcons {
+		display: none
+	}
+	.AgentsNearYou .agentContactIconsBottom {
+		display: inline-block;
+		float: left;
+		width: 100%
+	}
+	.AgentsNearYou .agentContactIconsBottom ul {
+		float: left;
+		width: 100%;
+		max-height: 58px
+	}
+	.AgentsNearYou .agentContactIconsBottom ul li {
+		width: 50px
+	}
+	.AgentsNearYou .agentContactIconsBottom .thDImage {
+		width: 50px;
+		height: 50px
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactPhone img {
+		background-position: -43px -404px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactPhone img:hover {
+		background-position: -43px -484px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactEmail img {
+		background-position: -135px -404px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactEmail img:hover {
+		background-position: -135px -484px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactFacebook, .AgentsNearYou .agentContactIconsBottom .agentContactTweeter {
+		padding-top: 0;
+		margin-right: 1px
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img {
+		background-position: -224px -404px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img:hover {
+		background-position: -224px -484px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactFacebook img {
+		background-position: -316px -404px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactFacebook img:hover {
+		background-position: -316px -484px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactTweeter img {
+		background-position: -407px -404px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactTweeter img:hover {
+		background-position: -407px -484px!important
+	}
+	.AgentsNearYou .anyMoreAgents {
+		display: none
+	}
+	.AgentsNearYou .agentName {
+		padding-top: 15px;
+		max-width: 320px
+	}
+	.AgentsNearYou .slides-inner-agentsnearyou {
+		min-height: 222px
+	}
+	.AgentsNearYou .slides_next-agentsnearyou, .AgentsNearYou .slides_prev-agentsnearyou {
+		display: block;
+		height: 36px;
+		width: 18px;
+		cursor: pointer;
+		background: url(/resources/images/slides-prev-next.svg) no-repeat;
+		text-indent: -9999px;
+		text-decoration: none;
+		margin: 50px auto 0
+	}
+	.AgentsNearYou .slides_next-agentsnearyou {
+		background-position: -18px 0
+	}
+	.AgentsNearYou .slides-nav-agentsnearyou {
+		display: inline-block;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		padding-left: 10px
+	}
+	.AgentsNearYou .slides-nav-agentsnearyou a {
+		display: inline-block;
+		padding: 17px;
+		height: 10%;
+		width: 2%;
+		text-indent: -9999px;
+		background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
+		outline-style: none
+	}
+	.AgentsNearYou .slides-nav-agentsnearyou a.activeSlide {
+		background-position: 0 0
+	}
+	.AgentReviews {
+		margin-top: 0!important;
+		margin-left: 0!important
+	}
+	.HeroBanner .quoteType {
+		width: 215px;
+		margin-bottom: 1px
+	}
+	.HeroBanner .getQuote {
+		width: 215px;
+		margin-top: 1px
+	}
+	.HeroBanner .freeTextBar, .HeroBanner .quoteCTA {
+		width: 267px!important;
+		margin-right: 0!important;
+		margin-left: 0!important
+	}
+	.HeroBanner .quoteCTA {
+		height: 391px;
+		float: left
+	}
+	.HeroBanner .title {
+		padding-top: 50px;
+		padding-bottom: 29px;
+		font-size: 2.65em
+	}
+	.HeroBanner .freeTextTitle {
+		font-size: 2.65em;
+		padding-top: 65px;
+		padding-bottom: 29px
+	}
+	.HeroBanner .freeTextBar .title {
+		padding-top: 79px
+	}
+	.HeroBanner .retrieveQuoteLink {
+		margin-bottom: 65px
+	}
+	.HeroBanner .subTitle {
+		font-size: 1.2em;
+		margin-bottom: 25px
+	}
+	.HeroBanner .coverageOptions {
+		margin-bottom: 76px
+	}
+	.HeroBanner .loginBar {
+		width: 338px;
+		margin-right: 0!important;
+		margin-left: 0!important
+	}
+	.HeroBanner .registerLink {
+		margin-bottom: 60px
+	}
+	.HeroBanner .forgotID {
+		margin-bottom: 56px;
+		padding-right: 12px
+	}
+	.HeroBanner .forgotPassword {
+		padding-left: 12px
+	}
+	.MiddleNavigation .navIcons {
+		min-width: 430px;
+		max-width: 430px;
+		overflow: auto;
+		text-align: left
+	}
+	.MiddleNavigation .navIcons a figcaption {
+		float: left;
+		text-align: left;
+		min-width: 84px;
+		padding-left: 5px
+	}
+	.MiddleNavigation .navIcon img {
+		width: 46px;
+		height: 46px;
+		float: left
+	}
+	.MiddleNavigation .navIcons li {
+		padding-left: 10px
+	}
+	.MiddleNavigation .navIcons li:nth-child(3n+1) {
+		padding-left: 0
+	}
+	.MiddleNavigation .navIcons li:nth-child(n+4) {
+		padding-top: 19px
+	}
+	.MiddleNavigation .quoteCTA {
+		padding-left: 10px
+	}
+	.NavigationFooter .quoteCTA {
+		width: 90%;
+		padding-left: 0;
+		padding-right: 0
+	}
+	.NavigationFooter .findAgent {
+		width: 50%;
+		max-width: 265px;
+		box-sizing: border-box
+	}
+	.NavigationFooter .companyLogo {
+		float: none;
+		width: 100%;
+		padding-top: 20px;
+		margin-top: 0;
+		box-sizing: border-box
+	}
+	.NavigationFooter .companyLogo .cLogo, .NavigationFooter .firstLink {
+		padding-left: 0
+	}
+	.NavigationFooter .centerColumns {
+		width: 90%;
+		margin: auto
+	}
+	.NavigationFooter .cColumn {
+		width: 33%
+	}
+	.NavigationFooter .bottomLinks {
+		width: 95%
+	}
+	.NavigationFooter .bottomLinks li {
+		text-align: center;
+		padding-right: 3%!important
+	}
+	.NavigationFooter .agentAddressDiv {
+		padding-left: 10px
+	}
+	.NavigationFooter .agentCTA {
+		width: 90%;
+		max-width: 350px;
+		padding-left: 0;
+		padding-right: 0
+	}
+	.NavigationFooter .agentCTA h4 {
+		text-align: center
+	}
+	.NavigationFooter .agentListing {
+		min-height: 205px
+	}
+	.NavigationFooter .agent-nav {
+		display: none
+	}
+	.NavigationFooter .socialLinks {
+		border-bottom: 1px solid #e7e7e7;
+		padding-bottom: 35px
+	}
+	.NavigationFooter .connectWithUs {
+		border-top: 1px solid #e7e7e7;
+		padding-top: 35px;
+		box-sizing: border-box
+	}
+	.NavigationFooter .copyRight {
+		padding-bottom: 35px;
+		margin-top: 0;
+		margin-bottom: 0
+	}
+	.NavigationFooter .NFAgentLeft {
+		width: 18px;
+		display: block;
+		float: left
+	}
+	.NavigationFooter .NFAgentRight {
+		width: 18px;
+		display: block;
+		float: right
+	}
+	.NavigationFooter .slides_next-navfooter, .NavigationFooter .slides_prev-navfooter {
+		display: block;
+		height: 36px;
+		width: 18px;
+		cursor: pointer;
+		background: url(/resources/images/slides-prev-next.svg) no-repeat;
+		text-indent: -9999px;
+		text-decoration: none;
+		margin: 50px auto 0
+	}
+	.NavigationFooter .slides_next-navfooter {
+		background-position: -18px 0
+	}
+	.NavigationFooter .slides-nav-navfooter {
+		display: inline-block;
+		width: 100%;
+		margin: auto;
+		text-align: center;
+		padding-left: 10px
+	}
+	.NavigationFooter .slides-nav-navfooter a {
+		display: inline-block;
+		padding: 17px;
+		height: 10%;
+		width: 2%;
+		text-indent: -9999px;
+		background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
+		outline-style: none
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactEmail, .NavigationFooter .agentContactIconsBottom .agentContactPhone, .NavigationFooter .agentContactIconsBottom .agentContactWebsite {
+		padding-top: 0;
+		margin-right: 3px
+	}
+	.NavigationFooter .slides-nav-navfooter a.activeSlide {
+		background-position: 0 0
+	}
+	.NavigationFooter .agentList {
+		margin-left: 7px
+	}
+	.NavigationFooter .agentContactIcons {
+		display: none
+	}
+	.NavigationFooter .agentContactIconsBottom {
+		display: inline-block;
+		float: left;
+		width: 100%
+	}
+	.NavigationFooter .agentContactIconsBottom ul {
+		float: left;
+		width: 100%;
+		max-height: 58px
+	}
+	.NavigationFooter .agentContactIconsBottom ul li {
+		width: 50px
+	}
+	.NavigationFooter .agentContactIconsBottom .thDImage {
+		width: 50px;
+		height: 50px
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactPhone img {
+		background-position: -43px -404px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactPhone img:hover {
+		background-position: -43px -484px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactEmail img {
+		background-position: -135px -404px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactEmail img:hover {
+		background-position: -135px -484px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactFacebook, .NavigationFooter .agentContactIconsBottom .agentContactTweeter {
+		padding-top: 0;
+		margin-right: 1px
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactWebsite img {
+		background-position: -224px -404px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactWebsite img:hover {
+		background-position: -224px -484px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactFacebook img {
+		background-position: -316px -404px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactFacebook img:hover {
+		background-position: -316px -484px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactTweeter img {
+		background-position: -407px -404px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactTweeter img:hover {
+		background-position: -407px -484px!important
+	}
+	.SmallFreeTextScroller {
+		margin-top: 0
+	}
+	.SmallFreeTextScroller .SmallFreeTextScrollerHeader {
+		padding-left: 27px
+	}
+	.SmallFreeTextScroller .SFTSOuter {
+		max-width: 550px;
+		width: 100%;
+		margin: auto
+	}
+	.SmallFreeTextScroller .sfts-slides-outer {
+		min-width: 500px
+	}
+	.SmallFreeTextScroller .sfts-home-carousel ul {
+		max-width: 500px
+	}
+	.SmallFreeTextScroller .sfts-home-carousel li {
+		padding-left: 10px
+	}
+	.SmallFreeTextScroller .sfts-slide-right-arrow {
+		margin-left: 0
+	}
 }
 @media screen and (min-width :768px) and (max-width :1024px) {
-.ZipCodeOverlay .Background {
-	background: url(/resources/Images/zip-hero.jpg) 0 1em/5em auto no-repeat #fff;
-	height: auto;
-	min-height: 6em;
-	overflow: hidden
-}
-.ZipCodeOverlay .Content {
-	padding-left: 4em;
-	padding-top: .75em
-}
+	.ZipCodeOverlay .Background {
+		background: url(/resources/Images/zip-hero.jpg) 0 1em/5em auto no-repeat #fff;
+		height: auto;
+		min-height: 6em;
+		overflow: hidden
+	}
+	.ZipCodeOverlay .Content {
+		padding-left: 4em;
+		padding-top: .75em
+	}
 }
 @media screen and (max-width :767px) {
-a, a:focus {
-	outline: 0
-}
-.AgentBanner a.Arrow {
-	background: url(/resources/Images/AgentBanner/icon_arrow_grey.png) right center no-repeat;
-	color: #3467b8
-}
-.AgentBanner .ScreenBanner {
-	width: 100%
-}
-.AgentBanner .ScreenBanner .Logo {
-	background-size: 150px 45px!important;
-	float: left;
-	height: 45px;
-	left: -10px;
-	position: relative;
-	top: 0;
-	width: 150px
-}
-.AgentBanner .ScreenBanner .NoAgentInfo {
-	float: right;
-	left: auto;
-	padding-right: .75em;
-	position: relative;
-	text-align: right;
-	top: .5em;
-	width: 100%
-}
-.AgentBanner .ScreenBanner .NoAgentInfo a {
-	margin-right: 0
-}
-.AgentBanner .ScreenBanner .NoAgentInfo a:hover {
-	text-decoration: none
-}
-.AgentBanner .ScreenBanner .NoAgentInfo .CallAllstate {
-	display: none
-}
-.AgentBanner .ScreenBanner .Quote {
-	border-left: none;
-	float: right;
-	left: auto;
-	padding: 0 .65em 0 0;
-	position: relative;
-	text-align: right;
-	top: 0;
-	width: 100%
-}
-.AgentBanner .ScreenBanner .Quote a {
-	background: url(/resources/Images/AgentBanner/icon_arrow_grey.png) right center no-repeat;
-	color: #3467b8;
-	font: 14px/17px arial, sans-serif;
-	font-weight: 700;
-	height: auto;
-	padding-right: 10px;
-	right: 1em;
-	text-indent: 0;
-	width: auto
-}
-.AgentBanner .ScreenBanner .Quote a:hover {
-	background-position: right center;
-	text-decoration: none
-}
-.AgentBanner .ScreenBanner .AgentInfo {
-	float: left;
-	left: 0;
-	padding-top: 4em;
-	position: relative;
-	width: 100%;
-	top: -7px
-}
-.AgentBanner .ScreenBanner .AgentInfo .agent-business-title {
-	color: #3467b8;
-	float: right;
-	font: 14px/17px arial, sans-serif;
-	font-weight: 700;
-	left: auto;
-	position: fixed;
-	right: 2em;
-	text-transform: uppercase;
-	top: 5em
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcExpandCollapse {
-	background: url(/resources/Images/collapse-expand.svg) -30px 0 no-repeat;
-	cursor: pointer;
-	display: block;
-	float: right;
-	height: 30px;
-	position: fixed;
-	right: 0;
-	top: 5.35em;
-	width: 30px
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcExpandCollapse:hover {
-	background-position: -30px -30px
-}
-.AgentBanner .ScreenBanner .AgentInfo .Expanded {
-	background-position: 0 0
-}
-.AgentBanner .ScreenBanner .AgentInfo .Expanded:hover {
-	background-position: 0 -30px
-}
-.AgentBanner .ScreenBanner .AgentInfo .agent-business-card-container {
-	display: none
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive {
-	width: 100%
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-left {
-	cursor: pointer;
-	width: 10%;
-	float: left;
-	display: inline-block;
-	height: 180px
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .slides_prev {
-	display: block;
-	height: 100%;
-	width: 26%;
-	min-width: 18px;
-	cursor: pointer;
-	background: url(/resources/images/slides-prev.svg) no-repeat;
-	text-indent: -9999px;
-	text-decoration: none;
-	margin: 6em auto 0
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-right {
-	cursor: pointer;
-	width: 10%;
-	float: left;
-	display: inline-block;
-	height: 180px
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .slides_next {
-	display: block;
-	height: 100%;
-	width: 26%;
-	min-width: 18px;
-	cursor: pointer;
-	background: url(/resources/images/slides-next.svg) no-repeat;
-	text-indent: -9999px;
-	text-decoration: none;
-	margin: 6em auto 0
-}
-.AgentBanner .ScreenBanner .AgentInfo .slides-nav {
-	text-align: center
-}
-.AgentBanner .ScreenBanner .AgentInfo .slides-nav a {
-	display: inline-block;
-	padding: 17px;
-	height: 10%;
-	width: 2%;
-	text-indent: -9999px;
-	background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
-	outline-style: none
-}
-.AgentBanner .ScreenBanner .AgentInfo .slides-nav a.activeSlide {
-	background-position: 0 0
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main {
-	display: inline-block!important;
-	float: left;
-	width: 80%!important
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell {
-	position: relative!important;
-	width: 100%!important;
-	max-width: 100%;
-	display: inline-block;
-	overflow: hidden
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .slide {
-	background-size: cover;
-	width: 100%
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent {
-	width: 100%;
-	background-color: #e8edf0!important;
-	margin: 5px 0 0
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-photo {
-	display: inline-block;
-	width: 40%;
-	vertical-align: top
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-photo img {
-	display: inline-block;
-	max-height: 88px;
-	max-width: 88px;
-	margin: 20px 8% 20px 20px;
-	width: 70%
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-info {
-	display: inline-block;
-	width: 55%;
-	padding: 15px 5% 0 0;
-	color: #333;
-	font: 1em/1.3em arial, sans-serif;
-	float: right
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-info .resp-info-name {
-	font: 1.4em/1.5em arial, sans-serif;
-	color: #1666af;
-	display: block
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-phone {
-	display: inline-block;
-	float: left;
-	width: 50%;
-	margin: 5px 0 0;
-	background: url(/resources/images/quotecta/phone-icon-blue.svg) center no-repeat #e8edf0;
-	height: 40px;
-	position: relative;
-	left: -2px
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-phone a {
-	display: block;
-	height: 100%;
-	width: 100%
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-website {
-	display: inline-block;
-	float: left;
-	width: 50%;
-	background-color: #e8edf0;
-	margin: 5px 0 0;
-	text-align: center;
-	position: relative;
-	right: -2px;
-	height: 40px;
-	vertical-align: middle
-}
-.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-website a {
-	color: #1666af!important;
-	display: block;
-	font: 1.4em/1.4em arial, sans-serif!important;
-	text-decoration: none;
-	vertical-align: middle;
-	text-transform: uppercase;
-	height: 80px;
-	line-height: 80px;
-	position: relative;
-	top: .5em
-}
-.AgentsNearYou .AGYOuter {
-	width: 340px;
-	margin: auto
-}
-.AgentsNearYou .agentPhone {
-	display: none
-}
-.AgentsNearYou .agentListing {
-	min-width: 267px
-}
-.AgentsNearYou .agentListing li {
-	width: 267px
-}
-.AgentsNearYou .agentName, .AgentsNearYou .agentName a {
-	width: 150px;
-	font-size: 1em
-}
-.AgentsNearYou .agentContactIconsBottom .thDImage {
-	width: 87px;
-	height: 50px
-}
-.AgentsNearYou .agentContactIconsBottom ul {
-	margin-top: 1px
-}
-.AgentsNearYou .agentContactIconsBottom ul li {
-	width: 87px
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactPhone {
-	display: inline-block;
-	padding-top: 0;
-	margin-right: 3px
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactPhone img {
-	background-position: -42px -623px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactPhone img:hover {
-	background-position: -42px -703px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactEmail {
-	padding-top: 0;
-	margin-right: 3px
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactEmail img {
-	background-position: -167px -623px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactEmail img:hover {
-	background-position: -167px -703px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactWebsite {
-	padding-top: 0;
-	margin-right: 0
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img {
-	background-position: -291px -623px!important
-}
-.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img:hover {
-	background-position: -291px -703px!important
-}
-.AgentsNearYou .agentsFindMessage, .AgentsNearYou .anyHeader {
-	padding-left: 33px
-}
-.AgentsNearYou .anyHeader a {
-	white-space: pre
-}
-.AgentReviews {
-	width: 157px;
-	margin-top: 0!important;
-	margin-left: 0!important
-}
-.Breadcrumb {
-	display: inline-block;
-	margin: 0 auto;
-	width: 100%;
-	border-bottom: 1px solid #d9d9d9
-}
-.Breadcrumb .BreadcrumbShare .ShareText, .Breadcrumb .Breadcrumbs {
-	display: none
-}
-.Breadcrumb .BreadcrumbShare {
-	float: left;
-	margin: 0;
-	width: 100%
-}
-.Breadcrumb .BreadcrumbShare #ShareButton {
-	width: 100%
-}
-.CenterWell, .Disclaimer, .InsuranceStateMap {
-	margin: 0 auto;
-	width: 95%
-}
-.Breadcrumb .BreadcrumbShare table {
-	margin: 0 auto
-}
-.CenterWell {
-	clear: both;
-	padding-top: 2%!important
-}
-.Disclaimer {
-	display: inline-block;
-	font: 1em/1.5em Arial
-}
-.InsuranceStateMap {
-	clear: both
-}
-.InsuranceStateMap h2 {
-	border-top: medium none;
-	font-size: 1.4em;
-	font-weight: 700;
-	margin: 0;
-	padding-top: .625em
-}
-.InsuranceStateMap p {
-	font: 1.2em/1.5em Arial
-}
-.InsuranceStateMap .stateSelectionMap {
-	margin-left: 0
-}
-.InsuranceStateMap .stateSelectionMap img {
-	height: auto;
-	max-width: 100%;
-	width: auto
-}
-.InsuranceStateMap .stateSelectionMap .stateSelectText {
-	width: auto
-}
-.InsuranceStateMap .stateSelectionMap .stateSelectText.noState {
-	margin-top: 0;
-	width: auto
-}
-.InsuranceStateMap .stateSelectionMap .stateSelectText a.cta-pin {
-	background-size: contain;
-	font-size: 1.1em;
-	font-weight: 700
-}
-.InsuranceStateMap .stateSelectionMap .stateSelectText br {
-	display: block;
-	margin-top: .5em
-}
-.InsuranceStateMap .stateSelectionMap .stateSelectText p {
-	font: 1em/1.5em Arial
-}
-.LeftNavigation {
-	margin-top: 1em;
-	width: 100%
-}
-.LeftNavigation .LeftNavBottom {
-	height: 0
-}
-.LeftNavigation .LeftNav, .LeftNavigation .LeftNavBottom {
-	background: 0 0
-}
-.LeftNavigation .LeftNavContents .LeftNavAccordion {
-	padding-bottom: 1em
-}
-.LeftNavigation .LeftNav .LeftNavContents .LeftNavAccordion .LeftNavSectionHead {
-	background-color: #f5f5f5;
-	border-bottom: 1px solid #eaeaea;
-	border-top: 1px solid #eaeaea;
-	height: 2.5em;
-	padding-left: .5em;
-	padding-top: 5px;
-	width: 100%
-}
-.LeftNavContents li a, .LeftNavigation .LeftNavContents li span {
-	height: 3.5em;
-	outline: 0;
-	padding-top: 15px
-}
-.LeftNavigation .LeftNavContents li:last-child {
-	border-bottom: 1px solid #eaeaea
-}
-.LeftNavigation .LeftNavHeadImage {
-	padding-left: .5em
-}
-.LeftNavigation .LeftNavContents .LeftNavSubMenu li:last-child {
-	border-bottom: 0 none
-}
-.LeftNavigation .LeftNavContents .LeftNavHeadTog {
-	display: block
-}
-.LeftNavigation .LeftNavContents .LeftNavHeadSubMenu .LeftNavSubMenuTog, .LeftNavigation .LeftNavContents .LeftNavMenuTog {
-	padding: 15px 1.9em 15px 15px;
-	top: 10px
-}
-.LeftNavigation .LeftNavContents .LeftNavMenuTog, .LeftNavigation .LeftNavContents .expanded .LeftNavMenuTog {
-	padding-right: 2em;
-	top: 7px
-}
-.ZipCodeOverlay {
-	width: 90%!important
-}
-.ZipCodeOverlay .Title span {
-	width: 80%
-}
-.ZipCodeOverlay .Background {
-	background: #fff;
-	height: auto;
-	min-height: 4em;
-	overflow: hidden
-}
-.ZipCodeOverlay .Close {
-	width: .6em
-}
-.ZipCodeOverlay .Content {
-	padding-left: .75em;
-	padding-top: .75em
-}
-.ZipCodeOverlay .Content input {
-	background: none;
-	font-size: .85em;
-	height: 1.3em;
-	left: .5em;
-	width: 4.25em
-}
-.ZipCodeOverlay .Content .ZipCodeColumn {
-	padding-bottom: 1em
-}
-.ZipCodeOverlay .Content .CityStateColumn {
-	border-left: medium none;
-	padding-left: 0;
-	width: 7.5em
-}
-.ZipCodeOverlay .Content .ErrorRow {
-	bottom: 0;
-	padding: 0;
-	top: auto
-}
-.ZipCodeOverlay .Content .ErrorRow span {
-	float: none
-}
-.ZipCodeOverlay .Content .Save {
-	left: 1.5em;
-	text-align: center;
-	top: .2em;
-	width: 4.75em
-}
-.ZipCodeOverlay .Content .ZipCodeBox img {
-	top: .15em
-}
-.ZipCodeOverlay .Progress {
-	height: 100%;
-	width: 100%
-}
-.ZipCodeOverlay .Progress .Loading {
-	width: 90%
-}
-.ZipCodeOverlay .Progress .Loading br {
-	margin-top: -1em
-}
-.ZipCodeOverlay .Progress .Loading img {
-	padding: .5em 0 0 .5em
-}
-.ZipCodeOverlay .Progress .Loading span {
-	display: block;
-	padding-left: 1.25em;
-	text-align: center
-}
-.ZipCodeOverlay .Progress .Loading .Delay {
-	padding-left: 0
-}
-.Drawer .drawerOuter {
-	position: relative;
-	top: 0!important;
-	min-width: 0
-}
-.Drawer .drawerInner {
-	width: 100%!important
-}
-.Drawer .drawerInner p {
-	color: #FFF;
-	margin: 10px 0
-}
-.Drawer .drawerInner h3 {
-	color: #FFF
-}
-.Drawer .drawerInner .addtl {
-	width: 100%
-}
-.Drawer .drawerInner .agents .colLabel {
-	padding-top: 10px
-}
-.Drawer .drawerInner .agents .agent-nav, .Drawer .drawerInner .agents .agentListing, .Drawer .drawerInner .agents .desktopView, .Drawer .drawerInner .agents .mobileView {
-	display: none
-}
-.Drawer .drawerInner .agents .agentListingMobile {
-	display: inline-block!important;
-	text-align: left;
-	width: 100%
-}
-.Drawer .drawerInner .agent li img, .Drawer .drawerInner .agents li img {
-	margin: 0 0 40px
-}
-.Drawer .drawerInner .agent-nav {
-	padding-bottom: 20px
-}
-.Drawer .drawerInner .agentListingOuterMobile {
-	display: block!important;
-	text-align: center;
-	width: 100%;
-	margin: auto
-}
-.Drawer .drawerInner .agentNumNearZipMobile {
-	display: inline-block
-}
-.Drawer .drawerInner .agentNumNearZip, .Drawer .drawerInner .drawerColSepartor, .Drawer .drawerInner .notice, .Drawer .drawerTab {
-	display: none
-}
-.Drawer .drawerInner .column {
-	width: 100%;
-	height: auto;
-	text-align: center
-}
-.Drawer .drawerInner .column.agents {
-	text-align: left;
-	padding: 0 0 20px;
-	width: 100%
-}
-.Drawer .drawerInner .column.agent ul, .Drawer .drawerInner .column.agents ul {
-	width: 100%!important
-}
-.Drawer .drawerInner .column.agent ul li, .Drawer .drawerInner .column.agents ul li {
-	height: auto;
-	width: 100%!important
-}
-.Drawer .drawerInner .colLabel {
-	text-align: center
-}
-.Drawer .drawerInner .column-wide, .Drawer .drawerInner .column-wide.agent ul, .Drawer .drawerInner .column-wide.agents ul {
-	width: 100%
-}
-.Drawer .drawerInner .column-wide.agent ul li, .Drawer .drawerInner .column-wide.agents ul li {
-	height: auto;
-	width: 100%
-}
-.Drawer .drawerInner .column-wide.agents .slides-outer-drawer {
-	width: 100%!important
-}
-.Drawer .drawerInner .agent ul, .Drawer .drawerInner .agents ul {
-	height: auto
-}
-.Drawer .drawerInner .DrawerAgent {
-	float: left;
-	width: 98%;
-	margin: 0 auto
-}
-.Drawer .drawerInner .DrawerAgent .DrawerAgentLeft {
-	width: 10%;
-	height: 160px;
-	margin: auto;
-	float: left
-}
-.Drawer .drawerInner .DrawerAgent .DrawerAgentMain {
-	width: 80%;
-	margin: auto;
-	float: left
-}
-.Drawer .drawerInner .DrawerAgent .DrawerAgentRight {
-	width: 10%;
-	height: 160px;
-	margin: auto;
-	float: left
-}
-.Drawer .drawerInner .DrawerAgentInfo {
-	float: left;
-	width: 100%;
-	background-color: #123e6f;
-	border: 1px solid #154478;
-	padding: 10px 0 0 10px!important
-}
-.Drawer .drawerInner .DrawerAgentInfo .agentAddr {
-	width: 70%
-}
-.Drawer .drawerInner .DrawerAgentContact {
-	padding-top: 5px;
-	width: 100%;
-	float: left;
-	height: 35%
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone {
-	background-color: #123e6f;
-	border-right: 3px solid #14477E;
-	width: 50%!important;
-	float: left;
-	margin: 0 auto;
-	height: 40px;
-	left: -2px;
-	display: inline-block
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone a {
-	background-color: #123e6f;
-	width: 10%!important;
-	min-width: 30px;
-	margin: auto!important;
-	display: block;
-	padding-top: 5px
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone a img {
-	padding-top: 5px
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone a:hover {
-	background-color: #123e6f
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentWebsite {
-	background-color: #123e6f;
-	border-left: 3px solid #14477E;
-	width: 50%!important;
-	padding: 0!important;
-	float: left;
-	color: #1666af;
-	height: 40px;
-	right: -2px;
-	display: inline-block
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentWebsite a {
-	text-decoration: none!important;
-	background-color: #123e6f;
-	color: #fff!important;
-	width: 27%!important;
-	min-width: 80px;
-	display: block;
-	font-size: 1.4em;
-	text-transform: uppercase;
-	margin: auto!important;
-	padding-top: 9px
-}
-.Drawer .drawerInner .drawerGetQuoteBtn, .Drawer .drawerInner .drawerGetQuoteBtn-es {
-	display: block;
-	height: 41px;
-	width: 50%;
-	text-indent: -9999em;
-	z-index: 100;
-	overflow: hidden;
-	outline-style: none
-}
-.Drawer .drawerInner .DrawerAgentContact .DrawerAgentWebsite a:hover {
-	background-color: #123e6f;
-	color: #fff!important
-}
-.Drawer .drawerInner .drawerGetQuoteBtn {
-	background: url(/resources/Images/Drawer/get-a-quote-mobile.svg) no-repeat
-}
-.Drawer .drawerInner .drawerGetQuoteBtn-es {
-	background: url(/resources/Images/Drawer/get-a-quote-mobile-es.svg) no-repeat
-}
-.Drawer .drawerInner .drawerLoc .zipEdit {
-	display: inline;
-	line-height: 3.5
-}
-.Drawer .drawerInner .drawerProduct-quote {
-	height: 38px;
-	text-align: left;
-	width: 100%;
-	margin-right: 5px;
-	display: inline-block;
-	color: #333;
-	font-size: 1.4em
-}
-.Drawer .drawerInner .drawerQuoteMobile {
-	display: block!important;
-	width: 45%;
-	min-width: 285px;
-	margin: 0 auto
-}
-.Drawer .drawerInner .drawerQuoteMobile h5 {
-	font-size: 1em;
-	font-style: italic;
-	font-weight: 400
-}
-.Drawer .drawerInner .drawerQuoteMobile .drawerGetQuoteBtn {
-	margin: 40px auto auto;
-	width: 40%
-}
-.Drawer .drawerInner .drawerSelectBox {
-	float: left
-}
-.Drawer .drawerInner .notLoggedIn .addtl, .Drawer .drawerInner .notLoggedIn .getQuote {
-	width: 100%
-}
-.Drawer .drawerInner .getQuote {
-	padding: 0
-}
-.Drawer .drawerInner .locLabel {
-	display: none
-}
-.Drawer .drawerInner .needZip {
-	background: url(/resources/Images/Drawer/zip-hero.jpg) 10px 20px/60px auto no-repeat #123E6F;
-	padding: 8px 30px 30px 80px
-}
-.Drawer .drawerInner .selectBox.drawerProduct-quote.drawerSelectBox.selectBox-dropdown {
-	width: 58%!important;
-	background-color: #e4e4e4;
-	color: #333
-}
-.Drawer .drawerInner .selectBox.drawerProduct-quote.drawerSelectBox.selectBox-dropdown .selectBox-label {
-	width: 100%!important;
-	color: #333
-}
-.Drawer .drawerInner .selectBox.drawerProduct-quote.drawerSelectBox.selectBox-dropdown .selectBox-arrow {
-	background: url(/resources/Images/QuoteCTA/select-arrow-grey.svg) center center no-repeat
-}
-.Drawer .drawerInner .slides-inner-drawer {
-	background: #14477e!important;
-	border: 1px solid #14477e!important;
-	padding: 0!important;
-	height: 100%;
-	width: 100%
-}
-.Drawer .drawerInner .slides-nav-drawer {
-	text-align: center;
-	padding-left: 10px
-}
-.Drawer .drawerInner .slides-nav-drawer a {
-	display: inline-block;
-	padding: 17px;
-	height: 10%;
-	width: 2%;
-	text-indent: -9999px;
-	background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
-	outline-style: none
-}
-.Drawer .drawerInner .slides-nav-drawer a.activeSlide {
-	background-position: 0 0
-}
-.Drawer .drawerInner .slides-nav-out-drawer {
-	display: block
-}
-.Drawer .drawerInner .slides_next-drawer, .Drawer .drawerInner .slides_prev-drawer {
-	display: block;
-	height: 100%;
-	width: 26%;
-	min-width: 18px;
-	cursor: pointer;
-	background: url(/resources/images/slides-prev-next.svg) no-repeat;
-	text-indent: -9999px;
-	text-decoration: none;
-	margin: 50px auto 0
-}
-.Drawer .drawerInner .slides_next-drawer {
-	background-position: -18px 0
-}
-.Drawer .drawerInner .quoteDrawer {
-	display: none
-}
-.Drawer .drawerInner .quoteDrawer .drawerLoc, .Drawer .drawerInner .quoteDrawer .getQuoteLnk {
-	margin: 0 auto
-}
-.Drawer .drawerInner .undetectZip {
-	width: 100%
-}
-.StackedFeatures {
-	width: 95%;
-	margin: 0 auto
-}
-.StackedFeatures .stacked-bg-1, .StackedFeatures .stacked-bg-2 {
-	padding-bottom: 0;
-	background: 0 0;
-	padding-top: 0
-}
-.StackedFeatures .stacked-bg-1 {
-	padding-bottom: 0
-}
-.StackedFeatures .images {
-	display: inline-block;
-	width: 100%;
-	margin: 0;
-	border: none!important
-}
-.StackedFeatures .images .main-icon {
-	display: inline-block;
-	position: absolute;
-	z-index: 10;
-	margin: 0 15px;
-	width: auto
-}
-.StackedFeatures .images .main-image {
-	display: inline-block;
-	position: relative;
-	z-index: 9;
-	width: 90%;
-	margin: 0 15px;
-	border: none!important
-}
-.StackedFeatures .images .main-image img {
-	width: 100%!important;
-	margin: 0 15px;
-	border: none!important
-}
-.StackedFeatures .description {
-	margin-bottom: 10px
-}
-.StackedFeatures div.resp-stacked-article {
-	display: block
-}
-.StackedFeatures div.resp-stacked-article p:not(.images) {
-	margin-right: 25px;
-	margin-left: 15px
-}
-.StackedFeatures .btn-cta-sm {
-	padding: 7px 10px;
-	font: 1em/1.3em 'Open Sans', sans-serif;
-	color: #fff!important;
-	text-decoration: none!important;
-	background-color: #c94e07
-}
-.StackedFeatures .btn-cta-sm span {
-	padding-right: 15px;
-	background: url(/resources/Allstate/images/tools-resources/cta-arrow-sm.png) 100% 55% no-repeat
-}
-.StackedFeatures .tools-module {
-	border: none!important
-}
-.StackedFeatures .tools-module .menu-right {
-	width: 100%;
-	font: 700 1em/1.3em arial, sans-serif;
-	right: 0;
-	float: initial;
-	border: none;
-	padding-top: 20px
-}
-.StackedFeatures .tools-module .menu-right .menu-list .on {
-	border-top: none!important
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item {
-	margin-right: 0;
-	padding: 0;
-	border: none;
-	height: auto;
-	border-bottom: 1px solid #d7d7d7;
-	border-right: none!important;
-	background-color: #fff!important
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item .on {
-	border: none!important
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item:hover {
-	padding: 0;
-	border: none;
-	border-bottom: 1px solid #d7d7d7;
-	border-top: none
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item .menu-item-icon-off {
-	display: inline-block!important
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item .menu-item-icon-on, .StackedFeatures .tools-module .menu-right .menu-list .menu-item:first-child .menu-item-icon-off {
-	display: none!important
-}
-.StackedFeatures .tools-module .article-left, .StackedFeatures .tools-module .menu-right .menu-list .menu-item .trail, .StackedFeatures .tools-module .menu-right .menu-list .trail .trail-corner {
-	display: none
-}
-.StackedFeatures .tools-module .btn-cta-sm, .StackedFeatures .tools-module .btn-cta-sm:hover {
-	color: #fff!important;
-	background-color: #fff!important
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item .menu-item-url a, .StackedFeatures .tools-module .menu-right .menu-list .on .menu-item-url a {
-	color: #333!important;
-	text-decoration: none
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item:first-child {
-	border-bottom: 1px solid #d7d7d7;
-	border-top: none;
-	padding-bottom: 20px
-}
-.StackedFeatures .tools-module .menu-right .menu-list .menu-item:first-child .menu-item-url a {
-	border-top: 0 solid transparent;
-	color: #c94e07!important;
-	font: 1.7em/1.2em "Open Sans", sans-serif
-}
-.IconTabbedContent {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 0 auto;
-	width: 95%
-}
-.IconTabbedContent .prod-nav {
-	border: none;
-	margin: 0;
-	padding: 0;
-	background-color: #fff
-}
-.IconTabbedContent .prod-nav .icons .midTab, .IconTabbedContent .prod-nav .midTab {
-	background: url(/resources/Images/QuoteCTA/plus-gray.svg) right 10px center no-repeat
-}
-.IconTabbedContent .prod-nav .midTab {
-	position: static;
-	margin: 0;
-	padding: 0;
-	z-index: 11;
-	height: 50px;
-	float: left;
-	width: 100%
-}
-.IconTabbedContent .prod-nav .icons .midTab a, .IconTabbedContent .prod-nav .midTab a {
-	font: 700 1em/1.2em arial, sans-serif;
-	text-transform: uppercase;
-	background-color: transparent;
-	display: block;
-	padding: 0;
-	margin: 0;
-	text-align: left;
-	text-decoration: none;
-	border: none;
-	word-break: break-all;
-	outline-style: none;
-	height: 50px;
-	line-height: 50px;
-	width: 100%
-}
-.IconTabbedContent .prod-nav .icons li:first-child a, .IconTabbedContent .prod-nav li.on a, .IconTabbedContent .prod-nav li:first-child a {
-	border-left: 0 solid transparent;
-	background-color: transparent
-}
-.IconTabbedContent .prod-nav .icons .midTab a:hover, .IconTabbedContent .prod-nav .icons li .on .midTab a:hover, .IconTabbedContent .prod-nav .midTab a:hover, .IconTabbedContent .prod-nav li .on .midTab a:hover {
-	background-color: transparent
-}
-.IconTabbedContent .prod-nav .icons li, .IconTabbedContent .prod-nav li {
-	border-bottom: 1px solid #dbd8d1;
-	font: 400 1em/1.2em arial, sans-serif;
-	display: block;
-	clear: both;
-	width: 100%;
-	margin: 0;
-	padding: 0
-}
-.IconTabbedContent .prod-nav .icons li:last-child, .IconTabbedContent .prod-nav li:last-child {
-	border-bottom: 0 none
-}
-.IconTabbedContent .prod-nav li .midTab a {
-	color: #505356;
-	padding: 0 0 0 1em;
-	height: 50px;
-	line-height: 50px
-}
-.IconTabbedContent .prod-nav .icons .on, .IconTabbedContent .prod-nav .on {
-	padding: 0;
-	margin: 0
-}
-.IconTabbedContent .prod-nav .icons li.on .rightTab, .IconTabbedContent .prod-nav li.on .rightTab {
-	display: none
-}
-.IconTabbedContent .prod-nav .icons li.on .leftTab, .IconTabbedContent .prod-nav li.on .leftTab {
-	display: none;
-	margin: 0;
-	width: 10px;
-	background-image: none;
-	z-index: 10;
-	height: 50px;
-	float: left
-}
-.IconTabbedContent .prod-nav li.on .midTab {
-	position: static;
-	margin: 0;
-	padding: 0;
-	background: url(/resources/Images/QuoteCTA/plus-gray.svg) right 10px center no-repeat
-}
-.IconTabbedContent .prod-nav li.on .resp-minus {
-	background: url(/resources/Images/QuoteCTA/minus-gray.svg) right 10px center no-repeat
-}
-.IconTabbedContent .prod-nav li.on .resp-plus {
-	background: url(/resources/Images/QuoteCTA/plus-gray.svg) right 10px center no-repeat
-}
-.IconTabbedContent .prod-nav li.on .midTab a {
-	height: 50px;
-	line-height: 50px;
-	width: 100%;
-	padding: 0 0 0 1em
-}
-.IconTabbedContent .prod-nav li .on .rightTab {
-	display: none;
-	position: static;
-	margin: 0;
-	width: 14px;
-	background-image: none;
-	z-index: 10;
-	height: 50px;
-	float: left
-}
-.IconTabbedContent .prod-nav .icons a {
-	padding: 0;
-	margin: 0;
-	background-position: 0 0
-}
-.IconTabbedContent .prod-nav.icons li .midTab a {
-	padding: 0;
-	text-indent: 60px
-}
-.IconTabbedContent .prod-nav.icons li.on .midTab {
-	position: static;
-	margin: 0;
-	padding: 0;
-	z-index: 11;
-	height: 50px;
-	float: left;
-	width: 100%;
-	background: 0 0
-}
-.IconTabbedContent .prod-nav.icons li.on .resp-minus {
-	background: url(/resources/Images/QuoteCTA/minus-gray.svg) right center no-repeat
-}
-.IconTabbedContent .prod-nav.icons li.on .resp-plus {
-	background: url(/resources/Images/QuoteCTA/plus-gray.svg) right center no-repeat
-}
-.IconTabbedContent .prod-nav.icons li.on .midTab a {
-	padding: 0;
-	height: 50px;
-	line-height: 50px;
-	width: 100%;
-	text-indent: 60px
-}
-.IconTabbedContent .prod-nav .icons li .on .rightTab {
-	display: none;
-	position: static;
-	margin: 0;
-	width: 14px;
-	background-image: none;
-	z-index: 10;
-	height: 50px;
-	float: left
-}
-.IconTabbedContent .prod-nav li .content img, .prod-container-bot .prod-container .content p img {
-	width: 100%
-}
-.IconTabbedContent .prod-nav li .content {
-	margin: 1em
-}
-.IconTabbedContent .prod-container {
-	background-image: none;
-	margin: 0 0 13px 4px;
-	padding: 0 8px 13px 0
-}
-.IconTabbedContent .prod-container h2 {
-	font: 1.5em/1.875em 'Open Sans', sans-serif;
-	color: #E67E22
-}
-.IconTabbedContent .prod-container h2 a {
-	color: #E67E22;
-	text-decoration: none
-}
-.IconTabbedContent .prod-container-bot {
-	background-image: none;
-	margin: 0;
-	padding: 0
-}
-.IconTabbedContent .prod-container .content {
-	display: none;
-	border: 0 solid #fff;
-	margin: 0!important;
-	padding: 10px 10px 1px 17px!important
-}
-.prod-container-bot .prod-container .content p:nth-of-type(2) {
-	display: none
-}
-.IconTabbedContent .prod-nav .content h2, .IconTabbedContent .prod-nav .icons .content h2, .IconTabbedContent .prod-nav .icons .on .content h2, .IconTabbedContent .prod-nav .on .content h2 {
-	font: 1.7em/1.3em 'Open Sans', sans-serif;
-	color: #c94e07
-}
-.IconTabbedContent .icons .prod-nav .content, .IconTabbedContent .prod-nav .content, .IconTabbedContent .prod-nav .icons .on .content, .IconTabbedContent .prod-nav .on .content {
-	color: #333;
-	background-color: #fff;
-	border: none;
-	margin: 1em;
-	padding: 0;
-	clear: both;
-	position: static;
-	font: 1em/1.5em Arial;
-	text-transform: none
-}
-.IconTabbedContent .prod-nav .content .btn-cta, .IconTabbedContent .prod-nav .icons .content .btn-cta, .IconTabbedContent .prod-nav .icons .on .content .btn-cta, .IconTabbedContent .prod-nav .on .content .btn-cta {
-	background-color: #c94e07;
-	color: #FFF!important;
-	display: inline-block;
-	font: 1.2em/1.4em 'Open Sans', sans-serif;
-	margin: 10px 0 0;
-	padding: 10px 18px;
-	text-decoration: none!important;
-	width: auto
-}
-.IconTabbedContent .icons .prod-nav .content .btn-cta span, .IconTabbedContent .prod-nav .content .btn-cta span, .IconTabbedContent .prod-nav .icons .on .content .btn-cta span, .IconTabbedContent .prod-nav .on .content .btn-cta span {
-	background-image: url(/resources/Images/cta-arrow-lg.png);
-	background-repeat: no-repeat;
-	background-position: 100% 55%;
-	padding-right: 20px
-}
-.IconTabbedContent .prod-nav .content .cta, .IconTabbedContent .prod-nav .icons .content .cta, .IconTabbedContent .prod-nav .icons .on .content .cta, .IconTabbedContent .prod-nav .on .content .cta {
-	margin-top: 25px
-}
-.IconTabbedContent .prod-nav .content .cta a, .IconTabbedContent .prod-nav .icons .content .cta a, .IconTabbedContent .prod-nav .icons .on .content .cta a, .IconTabbedContent .prod-nav .on .content .cta a {
-	font-weight: 700;
-	text-align: left
-}
-.IconTabbedContent .prod-nav .content .cta span, .IconTabbedContent .prod-nav .icons .content .cta span, .IconTabbedContent .prod-nav .icons .on .content .cta span, .IconTabbedContent .prod-nav .on .content .cta span {
-	background-image: url(/resources/Images/cta-arrow-lg-orange.svg);
-	background-repeat: no-repeat;
-	background-position: right center;
-	padding-right: 15px;
-	color: #333
-}
-.IconTabbedContent .prod-nav .icons .on .content p a, .IconTabbedContent .prod-nav .on .content p a {
-	color: #c94e07;
-	text-decoration: none
-}
-.QuoteCTA {
-	margin: 0 auto;
-	width: 95%
-}
-.QuoteCTA .home-agent-down {
-	padding: 0;
-	background: 0 0
-}
-.QuoteCTA .home-agent {
-	background: 0 0
-}
-.QuoteCTA .home-agent .content {
-	padding: 5px 10px;
-	margin: 0
-}
-.QuoteCTA .home-agent .content.tab-agent-prospect, .QuoteCTA .home-agent .content.tab-quote {
-	border: none;
-	display: none
-}
-.QuoteCTA .home-agent .quote-cta-info-customer, .QuoteCTA .home-agent .quote-cta-info-prospect, .QuoteCTA .home-agent .sub-nav, .QuoteCTA .quote-cta-info-prospect, .QuoteCTA .strong {
-	display: none
-}
-.QuoteCTA .quote-cta-agent-pagination {
-	display: none!important
-}
-.QuoteCTA .home-agent .resp-sub-nav-agent, .QuoteCTA .home-agent .resp-sub-nav-quote {
-	background-color: #1666af;
-	font: 700 1.35em/1em arial, sans-serif;
-	color: #fff;
-	line-height: 200%;
-	width: 100%;
-	display: inline-block;
-	padding-left: 15px
-}
-.QuoteCTA .home-agent .resp-sub-nav-agent {
-	border-bottom: 1px solid #dbd8d1
-}
-.QuoteCTA .home-agent .content .location a {
-	font: 1em/1em arial, sans-serif
-}
-.QuoteCTA .resp-agent-prospect {
-	display: inline-block
-}
-.QuoteCTA .resp-agent-collapse {
-	background: url(/resources/Images/QuoteCTA/plus-white.svg) center center no-repeat
-}
-.QuoteCTA .resp-agent-collapse.on {
-	background: url(/resources/Images/QuoteCTA/minus-white.svg) center center no-repeat
-}
-.QuoteCTA .selectBox-dropdown {
-	position: relative;
-	display: inline-block;
-	padding: 6px 0;
-	margin-right: 7px;
-	margin-top: 0;
-	margin-bottom: 15px;
-	min-width: 187px;
-	font: 700 .9em/1.5em 'Open Sans', arial, sans-serif;
-	color: #333;
-	background-color: #e4e4e4;
-	border-top: 0;
-	border-left: 0;
-	border-right: 0;
-	border-bottom: 1px solid #c8c9cb;
-	text-decoration: none;
-	text-transform: uppercase;
-	cursor: pointer;
-	float: left
-}
-.QuoteCTA .selectBox-dropdown .selectBox-arrow {
-	position: absolute;
-	top: 3px;
-	right: 0;
-	width: 18%;
-	height: 30px;
-	background: url(/resources/Images/QuoteCTA/select-arrow-grey.svg) center center no-repeat;
-	border-left: 1px solid #c8c9cb
-}
-.QuoteCTA .selectBox-dropdown:focus, .QuoteCTA .selectBox-dropdown:focus .selectBox-arrow {
-	border-color: #c8c9cb
-}
-.QuoteCTA .selectBox-dropdown .selectBox-label {
-	padding: 2px 8px;
-	display: inline-block;
-	white-space: nowrap;
-	overflow: hidden;
-	color: #333
-}
-.QuoteCTA .selectBox-dropdown-menu {
-	position: absolute;
-	z-index: 99999;
-	min-height: 1em;
-	border: 1px solid #c8c9cb;
-	background-color: #e4e4e4;
-	overflow: auto;
-	-webkit-overflow-scrolling: touch
-}
-.QuoteCTA .selectBox-inline {
-	min-width: 150px;
-	border: 1px solid #c8c9cb;
-	background-color: #e4e4e4;
-	display: inline-block;
-	overflow: auto
-}
-.QuoteCTA .selectBox-options, .QuoteCTA .selectBox-options LI, .QuoteCTA .selectBox-options LI A {
-	list-style: none;
-	display: block;
-	cursor: pointer;
-	padding: 0;
-	margin: 0
-}
-.QuoteCTA .selectBox-options.selectBox-options-bottom, .QuoteCTA .selectBox-options.selectBox-options-top {
-	border-bottom: 1px solid #c8c9cb
-}
-.QuoteCTA .selectBox-options LI A {
-	padding: 7px 0 7px 20px;
-	margin: 0 5px;
-	font: 700 .9em/1.6em 'Open Sans', arial, sans-serif;
-	color: #333;
-	text-transform: uppercase;
-	white-space: nowrap;
-	overflow: hidden
-}
-.QuoteCTA .selectBox-options LI:first-child A {
-	border: none
-}
-.QuoteCTA .selectBox-options LI.selectBox-hover A {
-	color: #666
-}
-.QuoteCTA .selectBox-options LI.selectBox-selected A {
-	color: #666;
-	background: url(/resources/Images/select-check.svg) center left no-repeat
-}
-.QuoteCTA .home-agent .btn {
-	padding: 9px 15px;
-	background-color: #1666af;
-	float: left;
-	clear: right;
-	text-transform: uppercase;
-	font: 1.1em/1.5em arial, sans-serif;
-	border-radius: 0
-}
-.QuoteCTA .home-agent .btn:hover {
-	color: #fff;
-	background-color: #1666af;
-	text-transform: uppercase
-}
-.QuoteCTA .home-agent .btn span {
-	padding-right: 0;
-	background: 0 0
-}
-.QuoteCTA .home-agent .content .sm {
-	clear: both
-}
-.QuoteCTA .home-agent .quote-cta-info-customer img {
-	width: 90px
-}
-.QuoteCTA .home-agent .quote-cta-info-customer li {
-	left: 0
-}
-.FreeTextScroller {
-	position: relative
-}
-.FreeTextScroller .home-carousel {
-	display: none
-}
-.FreeTextScroller .FreeTextScrollerFooter *, .FreeTextScroller .FreeTextScrollerHeader * {
-	width: 90%
-}
-.respFreeTextScroller {
-	display: block;
-	width: 90%;
-	margin: 0 auto!important;
-	clear: both;
-	padding-left: 20px;
-	height: auto
-}
-.respFreeTextScroller .respFreeTextContainer {
-	position: relative;
-	width: 100%!important;
-	margin: 0 auto;
-	padding: 0 20px;
-	height: auto
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides {
-	position: relative;
-	list-style: none;
-	overflow: hidden;
-	width: 100%!important;
-	padding: 0;
-	margin: 0 auto;
-	height: auto
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .slides-inner {
-	width: 100%!important;
-	height: auto!important;
-	background-color: #fff!important
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides li {
-	-webkit-backface-visibility: hidden;
-	position: absolute;
-	display: none;
-	width: 100%!important;
-	left: 0;
-	top: 0
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides li:first-child {
-	position: relative;
-	display: block;
-	float: left
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .slideContents {
-	display: inline-block!important;
-	width: 100%!important;
-	border: 0;
-	background-color: #fff
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .btn-cta-sm, .respFreeTextScroller .respFreeTextContainer .respSlides .btn-cta-sm span, .respFreeTextScroller .respFreeTextContainer .respSlides p {
-	display: inline-block
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides img {
-	margin: 0 auto
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides h3 {
-	color: #e67e22;
-	font: 400 1.3em/1.5em arial, sans-serif;
-	padding: 10px 0
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides p {
-	display: inline-block;
-	color: #333;
-	font: 400 1em/1.5em arial, sans-serif;
-	text-align: left
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .ImgContainer {
-	width: 40%;
-	display: inline-block;
-	float: right;
-	text-align: center
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .ImgContainer img {
-	display: inline-block;
-	width: 90%;
-	height: 90%;
-	padding: 20px 20px 20px 0
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent {
-	display: inline-block;
-	float: left;
-	width: 55%;
-	padding-left: 5%
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent p a {
-	color: #000;
-	font: 700 14px/18px arial, sans-serif;
-	height: 30px;
-	line-height: 30px
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent p a span:last-child {
-	background-image: url(/resources/Images/cta-arrow-lg-orange.svg);
-	background-position: 100% 65%;
-	background-repeat: no-repeat;
-	padding-right: 15px;
-	height: 30px;
-	width: 30px;
-	line-height: 30px
-}
-.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent h3 {
-	display: inline-block;
-	color: #c94e07;
-	font: 400 21px/25px arial, sans-serif;
-	padding: 20px 0 0;
-	margin: 0
-}
-.respFreeTextScroller .SlidesInner a:visited, .respFreeTextScroller .restSlidesInner a:link {
-	text-decoration: none
-}
-.respFreeTextScroller .SlidesInner a:hover {
-	color: #d0670c;
-	text-decoration: underline
-}
-.respFreeTextScroller .resp-slides-nav {
-	text-align: center;
-	padding-left: 0;
-	display: inline-block;
-	width: 100%;
-	margin: 0 auto
-}
-.respFreeTextScroller .resp-slides-nav a {
-	display: inline-block;
-	padding: 18px 15px;
-	height: 20px;
-	width: 4%;
-	text-indent: -9999px;
-	background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
-	outline-style: none
-}
-.respFreeTextScroller .slides-inner {
-	background-color: #FFF!important;
-	width: 100%!important;
-	margin: 0 auto;
-	height: auto!important
-}
-.respFreeTextScroller .slides-inner .slide-bot {
-	margin: 7px!important;
-	width: 95%!important
-}
-.respFreeTextScroller .resp-slides-nav a.activeSlide {
-	background-position: 0 0
-}
-.respFreeTextScroller .resp-slides_next, .respFreeTextScroller .resp-slides_prev {
-	display: block;
-	height: 10%;
-	width: 18px;
-	cursor: pointer;
-	background: url(/resources/images/slides-prev-next.svg) no-repeat!important;
-	position: absolute!important;
-	top: 125px;
-	text-indent: -9999px;
-	text-decoration: none
-}
-.respFreeTextScroller .resp-slides_prev {
-	left: 10px!important
-}
-.respFreeTextScroller .resp-slides_next {
-	right: 10px!important;
-	background-position: -18px 0!important
-}
-.GasPriceLocator {
-	width: 300px;
-	margin: 0 auto
-}
-.GasPriceLocator .Main .LeftColumn {
-	margin: 0 25px
-}
-.GasPriceLocator .Main .LeftColumn .ZipError {
-	margin-top: 0
-}
-.GasPriceLocator .Main .LeftColumn .Form .Zip {
-	height: 28px
-}
-.GasPriceLocator .Results ul {
-	left: -14px
-}
-.GasPriceLocator .Footer {
-	width: 87%
-}
-.GasPriceLocator .LocationMap {
-	width: 100%;
-	height: 72%
-}
-.GasPriceLocator .CTA a {
-	right: 3px;
-	height: 47%
-}
-.LargeTeasers .content {
-	width: 95%!important;
-	margin: 0 auto
-}
-.LargeTeasers .product-topic {
-	height: auto!important;
-	width: 100%;
-	margin: 0 auto!important;
-	float: none!important;
-	border-bottom: 1px solid #DDD!important;
-	border-left: none;
-	border-right: none;
-	border-top: none
-}
-.LargeTeasers .product-topic a {
-	color: #c94e07!important;
-	line-height: 1.3em
-}
-.LargeTeasers .product-topic :hover {
-	color: #D0670C!important
-}
-.LargeTeasers .feature-row, .LargeTeasers .product-topic a img {
-	height: auto;
-	width: 100%
-}
-.LargeTeasers .gigyaShare {
-	position: static!important;
-	text-align: right;
-	margin-right: -5px;
-	margin-top: 15px
-}
-.LargeTeasers .gigyaShare .gig-share-bar-container {
-	display: inline-block
-}
-.LargeTeasers .product-topic .product-topic-desc {
-	padding-bottom: 35px
-}
-.LargeTeasers .product-topic .product-topic-desc span {
-	color: #FFF!important
-}
-.FilteredSmallTeasers {
-	width: 95%!important;
-	margin: 0 auto
-}
-.FilteredSmallTeasers .topic-nav {
-	text-align: left!important;
-	padding-left: 0;
-	font-size: 1.15em
-}
-.FilteredSmallTeasers .header .headerTitle h3 {
-	font: .85em/1.2em "Open Sans", sans-serif!important
-}
-.FilteredSmallTeasers .product-topics .product-topic {
-	width: 100%!important
-}
-.FilteredSmallTeasers .product-topics a {
-	color: #333!important
-}
-.FilteredSmallTeasers .product-topics .product-topic-title {
-	vertical-align: top
-}
-.TabbedContentBox {
-	width: 95%;
-	margin: 0 auto;
-	position: relative
-}
-.TabbedContentBox .top-tabs li {
-	width: 100%!important;
-	border-bottom: 1px solid #FFF;
-	float: none!important
-}
-.TabbedContentBox .top-tabs .corner {
-	position: relative;
-	background: #1666af!important
-}
-.TabbedContentBox span {
-	padding: 0 15px
-}
-.TabbedContentBox .top-tabs .tabTable {
-	min-height: 42px
-}
-.TabbedContentBox .top-tabs .tabHeader {
-	text-align: left;
-	font: 700 1.35em/2em Arial, sans-serif;
-	color: #FFF!important
-}
-.TabbedContentBox .top-tabs .arrow {
-	height: 16px!important;
-	width: 16px!important;
-	background: url(/resources/Images/QuoteCTA/plus-white.svg) center center no-repeat!important;
-	display: inline-block;
-	position: absolute;
-	top: 12px;
-	right: 9px
-}
-.TabbedContentBox .top-tabs .expanded .arrow {
-	background: url(/resources/Images/QuoteCTA/minus-white.svg) center center no-repeat!important
-}
-.TabbedContentBox .top-content-box {
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-	display: none
-}
-.TabbedContentBox .top-content-box .content-area {
-	padding-top: 10px
-}
-.TabbedContentBox .content table {
-	width: 100%
-}
-.TabbedContentBox .content td .paymethod-cta img {
-	margin: 0 auto;
-	width: 102px
-}
-.ExpandableParagraph {
-	margin-right: 25px;
-	margin-left: 3%
-}
-.ListScroller {
-	width: 95%;
-	margin: 55px auto 0
-}
-.ListScroller .slides_next-list {
-	right: 5px
-}
-.ListScroller .home-carousel-list .slides-outer-list {
-	margin-left: 3px;
-	width: 100%!important
-}
-.ListScroller .home-carousel-list .slides-inner-list {
-	padding-left: 0;
-	width: 100%!important;
-	height: auto!important
-}
-.ListScroller .coverage-chart .header .headline {
-	line-height: 30px
-}
-.ListScroller .coverage-chart .header .subheadline {
-	line-height: 16px
-}
-.ListScroller .slides-nav-list a {
-	height: 44px
-}
-.VerticalExpandingSection .content ul {
-	list-style: none;
-	padding-left: 2%;
-	padding-right: 2%
-}
-#usn-contentText {
-	width: 95%!important;
-	margin: 0 auto!important;
-	float: none!important
-}
-#usn-contentText ul.make-list {
-	min-width: 165px!important;
-	list-style-type: none!important;
-	margin: 0!important
-}
-#usn-contentText ul.make-list:last-child {
-	margin-bottom: 10px!important
-}
-#usn-contentText ul.model-list {
-	max-width: 100%
-}
-#usn-contentText #top-box {
-	height: auto!important;
-	position: relative!important;
-	display: table!important;
-	width: 100%!important;
-	table-layout: fixed
-}
-#usn-contentText #top-box p {
-	width: 100%!important;
-	display: table-footer-group!important;
-	float: none!important
-}
-#usn-contentText #top-box img#car-image {
-	float: none!important;
-	margin: 0 auto!important;
-	max-width: 100%!important;
-	height: auto!important
-}
-#usn-contentText #top-box a img {
-	position: static!important;
-	padding-top: 17px!important;
-	padding-bottom: 13px!important;
-	margin: 0 auto!important;
-	max-width: 100%!important
-}
-#usn-contentText #cost h3 span {
-	display: block!important;
-	padding: 5px 0 5px 1px!important
-}
-#usn-contentText #cost a.step, #usn-contentText #cost p {
-	margin-left: 15px!important
-}
-#usn-contentText #cost a img {
-	margin-left: 35px!important;
-	max-width: 100%
-}
-#usn-contentText #cost p.btn {
-	margin-left: 35px!important;
-	width: auto!important
-}
-#usn-contentText #discounts ul {
-	width: auto!important
-}
-#usn-contentText #compare table.test-ratings {
-	margin-right: 0!important
-}
-#usn-contentText #compare table.test-ratings td.test-result {
-	width: 66px!important
-}
-#usn-contentText #compare table.test-ratings td.test-result img {
-	height: auto!important;
-	max-width: 100%;
-	width: 100%
-}
-@-moz-document url-prefix(http), url-prefix(file) {
-#usn-contentText #top-box img#car-image:-moz-broken {
--moz-force-broken-image-icon:1
-}
-}
-.NavigationFooter .footerNav {
-	text-align: left;
-	padding: 10px
-}
-.NavigationFooter .quoteCTA {
-	width: 100%;
-	max-width: 265px;
-	float: none;
-	margin: 20px auto auto;
-	text-align: left;
-	padding-left: 0;
-	padding-right: 0
-}
-.NavigationFooter .quoteType {
-	width: 265px;
-	border-radius: 6px 6px 0 0
-}
-.NavigationFooter .getQuote {
-	width: 265px;
-	border-radius: 0 0 6px 6px
-}
-.NavigationFooter .findAgent {
-	float: none;
-	margin-top: 15px;
-	width: 100%
-}
-.NavigationFooter .companyLogo {
-	float: none;
-	width: 100%
-}
-.NavigationFooter .quoteLink {
-	max-width: 100%
-}
-.NavigationFooter .socialLinks {
-	padding: 35px 0
-}
-.NavigationFooter .copyRight {
-	padding-top: 35px
-}
-.NavigationFooter .copyRight p {
-	margin-top: 5px
-}
-.NavigationFooter .centerColumns {
-	margin: auto;
-	text-align: center;
-	float: none
-}
-.NavigationFooter .centerColumns li {
-	margin-bottom: 20px
-}
-.NavigationFooter .bottomLinks, .NavigationFooter .cColumn {
-	width: 100%;
-	max-width: 100%;
-	float: none;
-	padding: 25px 0 0;
-	border-top: 1px solid #eaeaea
-}
-.NavigationFooter .bottomLinks h4 {
-	display: block;
-	text-align: center
-}
-.NavigationFooter .bottomLinks ul {
-	padding-left: 0
-}
-.NavigationFooter .bottomLinks li {
-	font-size: 1em;
-	padding-left: 0;
-	padding-right: 0!important;
-	float: none;
-	width: 100%;
-	max-width: 100%;
-	margin-bottom: 20px
-}
-.NavigationFooter .bottomLinks li a {
-	text-transform: none
-}
-.NavigationFooter .bottomLinks ul li:first-child {
-	display: list-item
-}
-.NavigationFooter .bottomLinks a {
-	color: #0075c9
-}
-.NavigationFooter .bottomLinks a:hover {
-	color: #1666af
-}
-.NavigationFooter .agentCTA {
-	float: none;
-	margin: 20px auto auto;
-	text-align: left;
-	padding-left: 0;
-	padding-right: 0;
-	width: 320px;
-	min-width: 320px
-}
-.NavigationFooter .agentInfo, .NavigationFooter .agentListing {
-	min-width: 267px
-}
-.NavigationFooter .agent-nav .pagination-nav {
-	padding: 21px 0 0;
-	display: inline-block
-}
-.NavigationFooter .cColumn:first-child {
-	border: none;
-	padding-top: 0
-}
-.NavigationFooter .agentName {
-	font-size: 1.17em;
-	max-width: 160px
-}
-.NavigationFooter .agentNameProduct {
-	padding-right: 0
-}
-.NavigationFooter .agentList {
-	min-width: 267px;
-	margin-left: 25px
-}
-.NavigationFooter .agentListing li {
-	width: 267px
-}
-.NavigationFooter .agentPhoneDiv {
-	display: none
-}
-.NavigationFooter .agentContactIconsBottom .thDImage {
-	width: 87px;
-	height: 50px
-}
-.NavigationFooter .agentContactIconsBottom ul {
-	margin-top: 1px
-}
-.NavigationFooter .agentContactIconsBottom ul li {
-	width: 87px
-}
-.NavigationFooter .agentContactIconsBottom .agentContactPhone {
-	display: inline-block;
-	padding-top: 0;
-	margin-right: 3px
-}
-.HeroBanner .forgotId, .HeroBanner .forgotPassword, .HeroBanner .registerLink, .HeroBanner .subTitle {
-	display: none
-}
-.NavigationFooter .agentContactIconsBottom .agentContactPhone img {
-	background-position: -42px -623px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactPhone img:hover {
-	background-position: -42px -703px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactEmail {
-	padding-top: 0;
-	margin-right: 3px
-}
-.NavigationFooter .agentContactIconsBottom .agentContactEmail img {
-	background-position: -167px -623px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactEmail img:hover {
-	background-position: -167px -703px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactWebsite {
-	padding-top: 0;
-	margin-right: 0
-}
-.NavigationFooter .agentContactIconsBottom .agentContactWebsite img {
-	background-position: -291px -623px!important
-}
-.NavigationFooter .agentContactIconsBottom .agentContactWebsite img:hover {
-	background-position: -291px -703px!important
-}
-.HeroBanner .quoteType {
-	margin-bottom: 1px;
-	width: 210px;
-	height: 30px
-}
-.HeroBanner .freeTextBar, .HeroBanner .quoteCTA {
-	width: 33%!important;
-	height: 280px!important;
-	min-width: 250px;
-	min-height: 280px;
-	margin-right: 0!important
-}
-.HeroBanner .title {
-	padding-top: 11px;
-	padding-bottom: 11px;
-	font-size: 2.5em
-}
-.HeroBanner .freeTextTitle {
-	padding-top: 52px;
-	padding-bottom: 16px;
-	font-size: 2.5em
-}
-.HeroBanner .getQuote {
-	margin-bottom: 10px;
-	width: 210px;
-	height: 30px
-}
-.HeroBanner .retrieveQuoteLink {
-	margin-bottom: 11px
-}
-.HeroBanner .coverageOptions {
-	margin-top: 16px;
-	margin-bottom: 41px;
-	width: 200px;
-	height: 50px;
-	padding-top: 13px;
-	font-size: 1em
-}
-.HeroBanner .zipCode {
-	margin-top: 1em
-}
-.HeroBanner .loginBar {
-	width: 100%;
-	height: 275px!important;
-	background: rgba(255,255,255,1)!important;
-	padding-left: 15px;
-	padding-right: 15px
-}
-.HeroBanner .logInTitle {
-	margin-bottom: 30px;
-	text-align: center;
-	font-size: 1.15em;
-	padding-top: 30px
-}
-.HeroBanner .passwordHeroBanner, .HeroBanner .usernameHeroBanner {
-	padding-left: 12px;
-	margin-bottom: 5px;
-	height: 38px;
-	width: 100%
-}
-.HeroBanner .passwordHeroBanner {
-	padding-right: 38px
-}
-.HeroBanner .logIn {
-	width: 100%;
-	margin-bottom: 38px;
-	height: 45px;
-	text-align: center;
-	padding: 9px 0 0
-}
-.HeroBanner .mobileForgotLinks, .HeroBanner .mobileRegisterLink {
-	display: inline-block;
-	font-size: 1em
-}
-.HeroBanner .mobileRegisterLink {
-	margin-bottom: 28px;
-	float: right
-}
-.MiddleNavigation .getQuote {
-	min-width: 266px;
-	font-size: 1.14em;
-	border-radius: 0 0 6px 6px
-}
-.MiddleNavigation .navIcons {
-	min-width: 266px;
-	max-width: 266px;
-	overflow: auto;
-	text-align: center;
-	padding-left: 0
-}
-.MiddleNavigation .navIcons a {
-	font-size: 1em
-}
-.MiddleNavigation .navIcons a figcaption {
-	float: none;
-	text-align: center
-}
-.MiddleNavigation .navIcons img {
-	width: 70px;
-	height: 70px;
-	float: none
-}
-.MiddleNavigation .navIcons li {
-	padding-left: 0;
-	min-width: 84px;
-	text-align: center
-}
-.MiddleNavigation .navIcons li:nth-child(n+2) {
-	padding-left: 7px
-}
-.MiddleNavigation .navIcons li:nth-child(3n+1) {
-	padding-left: 0
-}
-.MiddleNavigation .navIcons li:nth-child(n+4) {
-	padding-top: 20px
-}
-.MiddleNavigation .quoteCTA {
-	padding-top: 0;
-	padding-left: 0;
-	display: block;
-	margin: auto;
-	max-width: 266px
-}
-.MiddleNavigation .quoteLocationSaved {
-	padding-bottom: 15px
-}
-.MiddleNavigation .quoteType {
-	min-width: 266px;
-	font-size: 1.14em;
-	border-radius: 6px 6px 0 0
-}
-.SmallFreeTextScroller .SFTSOuter {
-	max-width: 340px;
-	width: 100%;
-	margin: auto
-}
-.SmallFreeTextScroller .sfts-slides-outer {
-	min-width: 300px
-}
-.SmallFreeTextScroller .sfts-home-carousel li, .SmallFreeTextScroller .sfts-home-carousel ul {
-	max-width: 170px
-}
-.SmallFreeTextScroller .owl-pagination {
-	width: 250px;
-	margin-left: -50px;
-	margin-bottom: 35px
-}
+	a, a:focus {
+		outline: 0
+	}
+	.AgentBanner a.Arrow {
+		background: url(/resources/Images/AgentBanner/icon_arrow_grey.png) right center no-repeat;
+		color: #3467b8
+	}
+	.AgentBanner .ScreenBanner {
+		width: 100%
+	}
+	.AgentBanner .ScreenBanner .Logo {
+		background-size: 150px 45px!important;
+		float: left;
+		height: 45px;
+		left: -10px;
+		position: relative;
+		top: 0;
+		width: 150px
+	}
+	.AgentBanner .ScreenBanner .NoAgentInfo {
+		float: right;
+		left: auto;
+		padding-right: .75em;
+		position: relative;
+		text-align: right;
+		top: .5em;
+		width: 100%
+	}
+	.AgentBanner .ScreenBanner .NoAgentInfo a {
+		margin-right: 0
+	}
+	.AgentBanner .ScreenBanner .NoAgentInfo a:hover {
+		text-decoration: none
+	}
+	.AgentBanner .ScreenBanner .NoAgentInfo .CallAllstate {
+		display: none
+	}
+	.AgentBanner .ScreenBanner .Quote {
+		border-left: none;
+		float: right;
+		left: auto;
+		padding: 0 .65em 0 0;
+		position: relative;
+		text-align: right;
+		top: 0;
+		width: 100%
+	}
+	.AgentBanner .ScreenBanner .Quote a {
+		background: url(/resources/Images/AgentBanner/icon_arrow_grey.png) right center no-repeat;
+		color: #3467b8;
+		font: 14px/17px arial, sans-serif;
+		font-weight: 700;
+		height: auto;
+		padding-right: 10px;
+		right: 1em;
+		text-indent: 0;
+		width: auto
+	}
+	.AgentBanner .ScreenBanner .Quote a:hover {
+		background-position: right center;
+		text-decoration: none
+	}
+	.AgentBanner .ScreenBanner .AgentInfo {
+		float: left;
+		left: 0;
+		padding-top: 4em;
+		position: relative;
+		width: 100%;
+		top: -7px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .agent-business-title {
+		color: #3467b8;
+		float: right;
+		font: 14px/17px arial, sans-serif;
+		font-weight: 700;
+		left: auto;
+		position: fixed;
+		right: 2em;
+		text-transform: uppercase;
+		top: 5em
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcExpandCollapse {
+		background: url(/resources/Images/collapse-expand.svg) -30px 0 no-repeat;
+		cursor: pointer;
+		display: block;
+		float: right;
+		height: 30px;
+		position: fixed;
+		right: 0;
+		top: 5.35em;
+		width: 30px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcExpandCollapse:hover {
+		background-position: -30px -30px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .Expanded {
+		background-position: 0 0
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .Expanded:hover {
+		background-position: 0 -30px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .agent-business-card-container {
+		display: none
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive {
+		width: 100%
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-left {
+		cursor: pointer;
+		width: 10%;
+		float: left;
+		display: inline-block;
+		height: 180px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .slides_prev {
+		display: block;
+		height: 100%;
+		width: 26%;
+		min-width: 18px;
+		cursor: pointer;
+		background: url(/resources/images/slides-prev.svg) no-repeat;
+		text-indent: -9999px;
+		text-decoration: none;
+		margin: 6em auto 0
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-right {
+		cursor: pointer;
+		width: 10%;
+		float: left;
+		display: inline-block;
+		height: 180px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .slides_next {
+		display: block;
+		height: 100%;
+		width: 26%;
+		min-width: 18px;
+		cursor: pointer;
+		background: url(/resources/images/slides-next.svg) no-repeat;
+		text-indent: -9999px;
+		text-decoration: none;
+		margin: 6em auto 0
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .slides-nav {
+		text-align: center
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .slides-nav a {
+		display: inline-block;
+		padding: 17px;
+		height: 10%;
+		width: 2%;
+		text-indent: -9999px;
+		background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
+		outline-style: none
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .slides-nav a.activeSlide {
+		background-position: 0 0
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main {
+		display: inline-block!important;
+		float: left;
+		width: 80%!important
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell {
+		position: relative!important;
+		width: 100%!important;
+		max-width: 100%;
+		display: inline-block;
+		overflow: hidden
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .slide {
+		background-size: cover;
+		width: 100%
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent {
+		width: 100%;
+		background-color: #e8edf0!important;
+		margin: 5px 0 0
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-photo {
+		display: inline-block;
+		width: 40%;
+		vertical-align: top
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-photo img {
+		display: inline-block;
+		max-height: 88px;
+		max-width: 88px;
+		margin: 20px 8% 20px 20px;
+		width: 70%
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-info {
+		display: inline-block;
+		width: 55%;
+		padding: 15px 5% 0 0;
+		color: #333;
+		font: 1em/1.3em arial, sans-serif;
+		float: right
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-agent .resp-info .resp-info-name {
+		font: 1.4em/1.5em arial, sans-serif;
+		color: #1666af;
+		display: block
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-phone {
+		display: inline-block;
+		float: left;
+		width: 50%;
+		margin: 5px 0 0;
+		background: url(/resources/images/quotecta/phone-icon-blue.svg) center no-repeat #e8edf0;
+		height: 40px;
+		position: relative;
+		left: -2px
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-phone a {
+		display: block;
+		height: 100%;
+		width: 100%
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-website {
+		display: inline-block;
+		float: left;
+		width: 50%;
+		background-color: #e8edf0;
+		margin: 5px 0 0;
+		text-align: center;
+		position: relative;
+		right: -2px;
+		height: 40px;
+		vertical-align: middle
+	}
+	.AgentBanner .ScreenBanner .AgentInfo .abcResponsive .resp-main .resp-cell .resp-website a {
+		color: #1666af!important;
+		display: block;
+		font: 1.4em/1.4em arial, sans-serif!important;
+		text-decoration: none;
+		vertical-align: middle;
+		text-transform: uppercase;
+		height: 80px;
+		line-height: 80px;
+		position: relative;
+		top: .5em
+	}
+	.AgentsNearYou .AGYOuter {
+		width: 340px;
+		margin: auto
+	}
+	.AgentsNearYou .agentPhone {
+		display: none
+	}
+	.AgentsNearYou .agentListing {
+		min-width: 267px
+	}
+	.AgentsNearYou .agentListing li {
+		width: 267px
+	}
+	.AgentsNearYou .agentName, .AgentsNearYou .agentName a {
+		width: 150px;
+		font-size: 1em
+	}
+	.AgentsNearYou .agentContactIconsBottom .thDImage {
+		width: 87px;
+		height: 50px
+	}
+	.AgentsNearYou .agentContactIconsBottom ul {
+		margin-top: 1px
+	}
+	.AgentsNearYou .agentContactIconsBottom ul li {
+		width: 87px
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactPhone {
+		display: inline-block;
+		padding-top: 0;
+		margin-right: 3px
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactPhone img {
+		background-position: -42px -623px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactPhone img:hover {
+		background-position: -42px -703px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactEmail {
+		padding-top: 0;
+		margin-right: 3px
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactEmail img {
+		background-position: -167px -623px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactEmail img:hover {
+		background-position: -167px -703px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactWebsite {
+		padding-top: 0;
+		margin-right: 0
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img {
+		background-position: -291px -623px!important
+	}
+	.AgentsNearYou .agentContactIconsBottom .agentContactWebsite img:hover {
+		background-position: -291px -703px!important
+	}
+	.AgentsNearYou .agentsFindMessage, .AgentsNearYou .anyHeader {
+		padding-left: 33px
+	}
+	.AgentsNearYou .anyHeader a {
+		white-space: pre
+	}
+	.AgentReviews {
+		width: 157px;
+		margin-top: 0!important;
+		margin-left: 0!important
+	}
+	.Breadcrumb {
+		display: inline-block;
+		margin: 0 auto;
+		width: 100%;
+		border-bottom: 1px solid #d9d9d9
+	}
+	.Breadcrumb .BreadcrumbShare .ShareText, .Breadcrumb .Breadcrumbs {
+		display: none
+	}
+	.Breadcrumb .BreadcrumbShare {
+		float: left;
+		margin: 0;
+		width: 100%
+	}
+	.Breadcrumb .BreadcrumbShare #ShareButton {
+		width: 100%
+	}
+	.CenterWell, .Disclaimer, .InsuranceStateMap {
+		margin: 0 auto;
+		width: 95%
+	}
+	.Breadcrumb .BreadcrumbShare table {
+		margin: 0 auto
+	}
+	.CenterWell {
+		clear: both;
+		padding-top: 2%!important
+	}
+	.Disclaimer {
+		display: inline-block;
+		font: 1em/1.5em Arial
+	}
+	.InsuranceStateMap {
+		clear: both
+	}
+	.InsuranceStateMap h2 {
+		border-top: medium none;
+		font-size: 1.4em;
+		font-weight: 700;
+		margin: 0;
+		padding-top: .625em
+	}
+	.InsuranceStateMap p {
+		font: 1.2em/1.5em Arial
+	}
+	.InsuranceStateMap .stateSelectionMap {
+		margin-left: 0
+	}
+	.InsuranceStateMap .stateSelectionMap img {
+		height: auto;
+		max-width: 100%;
+		width: auto
+	}
+	.InsuranceStateMap .stateSelectionMap .stateSelectText {
+		width: auto
+	}
+	.InsuranceStateMap .stateSelectionMap .stateSelectText.noState {
+		margin-top: 0;
+		width: auto
+	}
+	.InsuranceStateMap .stateSelectionMap .stateSelectText a.cta-pin {
+		background-size: contain;
+		font-size: 1.1em;
+		font-weight: 700
+	}
+	.InsuranceStateMap .stateSelectionMap .stateSelectText br {
+		display: block;
+		margin-top: .5em
+	}
+	.InsuranceStateMap .stateSelectionMap .stateSelectText p {
+		font: 1em/1.5em Arial
+	}
+	.LeftNavigation {
+		margin-top: 1em;
+		width: 100%
+	}
+	.LeftNavigation .LeftNavBottom {
+		height: 0
+	}
+	.LeftNavigation .LeftNav, .LeftNavigation .LeftNavBottom {
+		background: 0 0
+	}
+	.LeftNavigation .LeftNavContents .LeftNavAccordion {
+		padding-bottom: 1em
+	}
+	.LeftNavigation .LeftNav .LeftNavContents .LeftNavAccordion .LeftNavSectionHead {
+		background-color: #f5f5f5;
+		border-bottom: 1px solid #eaeaea;
+		border-top: 1px solid #eaeaea;
+		height: 2.5em;
+		padding-left: .5em;
+		padding-top: 5px;
+		width: 100%
+	}
+	.LeftNavContents li a, .LeftNavigation .LeftNavContents li span {
+		height: 3.5em;
+		outline: 0;
+		padding-top: 15px
+	}
+	.LeftNavigation .LeftNavContents li:last-child {
+		border-bottom: 1px solid #eaeaea
+	}
+	.LeftNavigation .LeftNavHeadImage {
+		padding-left: .5em
+	}
+	.LeftNavigation .LeftNavContents .LeftNavSubMenu li:last-child {
+		border-bottom: 0 none
+	}
+	.LeftNavigation .LeftNavContents .LeftNavHeadTog {
+		display: block
+	}
+	.LeftNavigation .LeftNavContents .LeftNavHeadSubMenu .LeftNavSubMenuTog, .LeftNavigation .LeftNavContents .LeftNavMenuTog {
+		padding: 15px 1.9em 15px 15px;
+		top: 10px
+	}
+	.LeftNavigation .LeftNavContents .LeftNavMenuTog, .LeftNavigation .LeftNavContents .expanded .LeftNavMenuTog {
+		padding-right: 2em;
+		top: 7px
+	}
+	.ZipCodeOverlay {
+		width: 90%!important
+	}
+	.ZipCodeOverlay .Title span {
+		width: 80%
+	}
+	.ZipCodeOverlay .Background {
+		background: #fff;
+		height: auto;
+		min-height: 4em;
+		overflow: hidden
+	}
+	.ZipCodeOverlay .Close {
+		width: .6em
+	}
+	.ZipCodeOverlay .Content {
+		padding-left: .75em;
+		padding-top: .75em
+	}
+	.ZipCodeOverlay .Content input {
+		background: none;
+		font-size: .85em;
+		height: 1.3em;
+		left: .5em;
+		width: 4.25em
+	}
+	.ZipCodeOverlay .Content .ZipCodeColumn {
+		padding-bottom: 1em
+	}
+	.ZipCodeOverlay .Content .CityStateColumn {
+		border-left: medium none;
+		padding-left: 0;
+		width: 7.5em
+	}
+	.ZipCodeOverlay .Content .ErrorRow {
+		bottom: 0;
+		padding: 0;
+		top: auto
+	}
+	.ZipCodeOverlay .Content .ErrorRow span {
+		float: none
+	}
+	.ZipCodeOverlay .Content .Save {
+		left: 1.5em;
+		text-align: center;
+		top: .2em;
+		width: 4.75em
+	}
+	.ZipCodeOverlay .Content .ZipCodeBox img {
+		top: .15em
+	}
+	.ZipCodeOverlay .Progress {
+		height: 100%;
+		width: 100%
+	}
+	.ZipCodeOverlay .Progress .Loading {
+		width: 90%
+	}
+	.ZipCodeOverlay .Progress .Loading br {
+		margin-top: -1em
+	}
+	.ZipCodeOverlay .Progress .Loading img {
+		padding: .5em 0 0 .5em
+	}
+	.ZipCodeOverlay .Progress .Loading span {
+		display: block;
+		padding-left: 1.25em;
+		text-align: center
+	}
+	.ZipCodeOverlay .Progress .Loading .Delay {
+		padding-left: 0
+	}
+	.Drawer .drawerOuter {
+		position: relative;
+		top: 0!important;
+		min-width: 0
+	}
+	.Drawer .drawerInner {
+		width: 100%!important
+	}
+	.Drawer .drawerInner p {
+		color: #FFF;
+		margin: 10px 0
+	}
+	.Drawer .drawerInner h3 {
+		color: #FFF
+	}
+	.Drawer .drawerInner .addtl {
+		width: 100%
+	}
+	.Drawer .drawerInner .agents .colLabel {
+		padding-top: 10px
+	}
+	.Drawer .drawerInner .agents .agent-nav, .Drawer .drawerInner .agents .agentListing, .Drawer .drawerInner .agents .desktopView, .Drawer .drawerInner .agents .mobileView {
+		display: none
+	}
+	.Drawer .drawerInner .agents .agentListingMobile {
+		display: inline-block!important;
+		text-align: left;
+		width: 100%
+	}
+	.Drawer .drawerInner .agent li img, .Drawer .drawerInner .agents li img {
+		margin: 0 0 40px
+	}
+	.Drawer .drawerInner .agent-nav {
+		padding-bottom: 20px
+	}
+	.Drawer .drawerInner .agentListingOuterMobile {
+		display: block!important;
+		text-align: center;
+		width: 100%;
+		margin: auto
+	}
+	.Drawer .drawerInner .agentNumNearZipMobile {
+		display: inline-block
+	}
+	.Drawer .drawerInner .agentNumNearZip, .Drawer .drawerInner .drawerColSepartor, .Drawer .drawerInner .notice, .Drawer .drawerTab {
+		display: none
+	}
+	.Drawer .drawerInner .column {
+		width: 100%;
+		height: auto;
+		text-align: center
+	}
+	.Drawer .drawerInner .column.agents {
+		text-align: left;
+		padding: 0 0 20px;
+		width: 100%
+	}
+	.Drawer .drawerInner .column.agent ul, .Drawer .drawerInner .column.agents ul {
+		width: 100%!important
+	}
+	.Drawer .drawerInner .column.agent ul li, .Drawer .drawerInner .column.agents ul li {
+		height: auto;
+		width: 100%!important
+	}
+	.Drawer .drawerInner .colLabel {
+		text-align: center
+	}
+	.Drawer .drawerInner .column-wide, .Drawer .drawerInner .column-wide.agent ul, .Drawer .drawerInner .column-wide.agents ul {
+		width: 100%
+	}
+	.Drawer .drawerInner .column-wide.agent ul li, .Drawer .drawerInner .column-wide.agents ul li {
+		height: auto;
+		width: 100%
+	}
+	.Drawer .drawerInner .column-wide.agents .slides-outer-drawer {
+		width: 100%!important
+	}
+	.Drawer .drawerInner .agent ul, .Drawer .drawerInner .agents ul {
+		height: auto
+	}
+	.Drawer .drawerInner .DrawerAgent {
+		float: left;
+		width: 98%;
+		margin: 0 auto
+	}
+	.Drawer .drawerInner .DrawerAgent .DrawerAgentLeft {
+		width: 10%;
+		height: 160px;
+		margin: auto;
+		float: left
+	}
+	.Drawer .drawerInner .DrawerAgent .DrawerAgentMain {
+		width: 80%;
+		margin: auto;
+		float: left
+	}
+	.Drawer .drawerInner .DrawerAgent .DrawerAgentRight {
+		width: 10%;
+		height: 160px;
+		margin: auto;
+		float: left
+	}
+	.Drawer .drawerInner .DrawerAgentInfo {
+		float: left;
+		width: 100%;
+		background-color: #123e6f;
+		border: 1px solid #154478;
+		padding: 10px 0 0 10px!important
+	}
+	.Drawer .drawerInner .DrawerAgentInfo .agentAddr {
+		width: 70%
+	}
+	.Drawer .drawerInner .DrawerAgentContact {
+		padding-top: 5px;
+		width: 100%;
+		float: left;
+		height: 35%
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone {
+		background-color: #123e6f;
+		border-right: 3px solid #14477E;
+		width: 50%!important;
+		float: left;
+		margin: 0 auto;
+		height: 40px;
+		left: -2px;
+		display: inline-block
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone a {
+		background-color: #123e6f;
+		width: 10%!important;
+		min-width: 30px;
+		margin: auto!important;
+		display: block;
+		padding-top: 5px
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone a img {
+		padding-top: 5px
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentPhone a:hover {
+		background-color: #123e6f
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentWebsite {
+		background-color: #123e6f;
+		border-left: 3px solid #14477E;
+		width: 50%!important;
+		padding: 0!important;
+		float: left;
+		color: #1666af;
+		height: 40px;
+		right: -2px;
+		display: inline-block
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentWebsite a {
+		text-decoration: none!important;
+		background-color: #123e6f;
+		color: #fff!important;
+		width: 27%!important;
+		min-width: 80px;
+		display: block;
+		font-size: 1.4em;
+		text-transform: uppercase;
+		margin: auto!important;
+		padding-top: 9px
+	}
+	.Drawer .drawerInner .drawerGetQuoteBtn, .Drawer .drawerInner .drawerGetQuoteBtn-es {
+		display: block;
+		height: 41px;
+		width: 50%;
+		text-indent: -9999em;
+		z-index: 100;
+		overflow: hidden;
+		outline-style: none
+	}
+	.Drawer .drawerInner .DrawerAgentContact .DrawerAgentWebsite a:hover {
+		background-color: #123e6f;
+		color: #fff!important
+	}
+	.Drawer .drawerInner .drawerGetQuoteBtn {
+		background: url(/resources/Images/Drawer/get-a-quote-mobile.svg) no-repeat
+	}
+	.Drawer .drawerInner .drawerGetQuoteBtn-es {
+		background: url(/resources/Images/Drawer/get-a-quote-mobile-es.svg) no-repeat
+	}
+	.Drawer .drawerInner .drawerLoc .zipEdit {
+		display: inline;
+		line-height: 3.5
+	}
+	.Drawer .drawerInner .drawerProduct-quote {
+		height: 38px;
+		text-align: left;
+		width: 100%;
+		margin-right: 5px;
+		display: inline-block;
+		color: #333;
+		font-size: 1.4em
+	}
+	.Drawer .drawerInner .drawerQuoteMobile {
+		display: block!important;
+		width: 45%;
+		min-width: 285px;
+		margin: 0 auto
+	}
+	.Drawer .drawerInner .drawerQuoteMobile h5 {
+		font-size: 1em;
+		font-style: italic;
+		font-weight: 400
+	}
+	.Drawer .drawerInner .drawerQuoteMobile .drawerGetQuoteBtn {
+		margin: 40px auto auto;
+		width: 40%
+	}
+	.Drawer .drawerInner .drawerSelectBox {
+		float: left
+	}
+	.Drawer .drawerInner .notLoggedIn .addtl, .Drawer .drawerInner .notLoggedIn .getQuote {
+		width: 100%
+	}
+	.Drawer .drawerInner .getQuote {
+		padding: 0
+	}
+	.Drawer .drawerInner .locLabel {
+		display: none
+	}
+	.Drawer .drawerInner .needZip {
+		background: url(/resources/Images/Drawer/zip-hero.jpg) 10px 20px/60px auto no-repeat #123E6F;
+		padding: 8px 30px 30px 80px
+	}
+	.Drawer .drawerInner .selectBox.drawerProduct-quote.drawerSelectBox.selectBox-dropdown {
+		width: 58%!important;
+		background-color: #e4e4e4;
+		color: #333
+	}
+	.Drawer .drawerInner .selectBox.drawerProduct-quote.drawerSelectBox.selectBox-dropdown .selectBox-label {
+		width: 100%!important;
+		color: #333
+	}
+	.Drawer .drawerInner .selectBox.drawerProduct-quote.drawerSelectBox.selectBox-dropdown .selectBox-arrow {
+		background: url(/resources/Images/QuoteCTA/select-arrow-grey.svg) center center no-repeat
+	}
+	.Drawer .drawerInner .slides-inner-drawer {
+		background: #14477e!important;
+		border: 1px solid #14477e!important;
+		padding: 0!important;
+		height: 100%;
+		width: 100%
+	}
+	.Drawer .drawerInner .slides-nav-drawer {
+		text-align: center;
+		padding-left: 10px
+	}
+	.Drawer .drawerInner .slides-nav-drawer a {
+		display: inline-block;
+		padding: 17px;
+		height: 10%;
+		width: 2%;
+		text-indent: -9999px;
+		background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
+		outline-style: none
+	}
+	.Drawer .drawerInner .slides-nav-drawer a.activeSlide {
+		background-position: 0 0
+	}
+	.Drawer .drawerInner .slides-nav-out-drawer {
+		display: block
+	}
+	.Drawer .drawerInner .slides_next-drawer, .Drawer .drawerInner .slides_prev-drawer {
+		display: block;
+		height: 100%;
+		width: 26%;
+		min-width: 18px;
+		cursor: pointer;
+		background: url(/resources/images/slides-prev-next.svg) no-repeat;
+		text-indent: -9999px;
+		text-decoration: none;
+		margin: 50px auto 0
+	}
+	.Drawer .drawerInner .slides_next-drawer {
+		background-position: -18px 0
+	}
+	.Drawer .drawerInner .quoteDrawer {
+		display: none
+	}
+	.Drawer .drawerInner .quoteDrawer .drawerLoc, .Drawer .drawerInner .quoteDrawer .getQuoteLnk {
+		margin: 0 auto
+	}
+	.Drawer .drawerInner .undetectZip {
+		width: 100%
+	}
+	.StackedFeatures {
+		width: 95%;
+		margin: 0 auto
+	}
+	.StackedFeatures .stacked-bg-1, .StackedFeatures .stacked-bg-2 {
+		padding-bottom: 0;
+		background: 0 0;
+		padding-top: 0
+	}
+	.StackedFeatures .stacked-bg-1 {
+		padding-bottom: 0
+	}
+	.StackedFeatures .images {
+		display: inline-block;
+		width: 100%;
+		margin: 0;
+		border: none!important
+	}
+	.StackedFeatures .images .main-icon {
+		display: inline-block;
+		position: absolute;
+		z-index: 10;
+		margin: 0 15px;
+		width: auto
+	}
+	.StackedFeatures .images .main-image {
+		display: inline-block;
+		position: relative;
+		z-index: 9;
+		width: 90%;
+		margin: 0 15px;
+		border: none!important
+	}
+	.StackedFeatures .images .main-image img {
+		width: 100%!important;
+		margin: 0 15px;
+		border: none!important
+	}
+	.StackedFeatures .description {
+		margin-bottom: 10px
+	}
+	.StackedFeatures div.resp-stacked-article {
+		display: block
+	}
+	.StackedFeatures div.resp-stacked-article p:not(.images) {
+		margin-right: 25px;
+		margin-left: 15px
+	}
+	.StackedFeatures .btn-cta-sm {
+		padding: 7px 10px;
+		font: 1em/1.3em 'Open Sans', sans-serif;
+		color: #fff!important;
+		text-decoration: none!important;
+		background-color: #c94e07
+	}
+	.StackedFeatures .btn-cta-sm span {
+		padding-right: 15px;
+		background: url(/resources/Allstate/images/tools-resources/cta-arrow-sm.png) 100% 55% no-repeat
+	}
+	.StackedFeatures .tools-module {
+		border: none!important
+	}
+	.StackedFeatures .tools-module .menu-right {
+		width: 100%;
+		font: 700 1em/1.3em arial, sans-serif;
+		right: 0;
+		float: initial;
+		border: none;
+		padding-top: 20px
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .on {
+		border-top: none!important
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item {
+		margin-right: 0;
+		padding: 0;
+		border: none;
+		height: auto;
+		border-bottom: 1px solid #d7d7d7;
+		border-right: none!important;
+		background-color: #fff!important
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item .on {
+		border: none!important
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item:hover {
+		padding: 0;
+		border: none;
+		border-bottom: 1px solid #d7d7d7;
+		border-top: none
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item .menu-item-icon-off {
+		display: inline-block!important
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item .menu-item-icon-on, .StackedFeatures .tools-module .menu-right .menu-list .menu-item:first-child .menu-item-icon-off {
+		display: none!important
+	}
+	.StackedFeatures .tools-module .article-left, .StackedFeatures .tools-module .menu-right .menu-list .menu-item .trail, .StackedFeatures .tools-module .menu-right .menu-list .trail .trail-corner {
+		display: none
+	}
+	.StackedFeatures .tools-module .btn-cta-sm, .StackedFeatures .tools-module .btn-cta-sm:hover {
+		color: #fff!important;
+		background-color: #fff!important
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item .menu-item-url a, .StackedFeatures .tools-module .menu-right .menu-list .on .menu-item-url a {
+		color: #333!important;
+		text-decoration: none
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item:first-child {
+		border-bottom: 1px solid #d7d7d7;
+		border-top: none;
+		padding-bottom: 20px
+	}
+	.StackedFeatures .tools-module .menu-right .menu-list .menu-item:first-child .menu-item-url a {
+		border-top: 0 solid transparent;
+		color: #c94e07!important;
+		font: 1.7em/1.2em "Open Sans", sans-serif
+	}
+	.IconTabbedContent {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin: 0 auto;
+		width: 95%
+	}
+	.IconTabbedContent .prod-nav {
+		border: none;
+		margin: 0;
+		padding: 0;
+		background-color: #fff
+	}
+	.IconTabbedContent .prod-nav .icons .midTab, .IconTabbedContent .prod-nav .midTab {
+		background: url(/resources/Images/QuoteCTA/plus-gray.svg) right 10px center no-repeat
+	}
+	.IconTabbedContent .prod-nav .midTab {
+		position: static;
+		margin: 0;
+		padding: 0;
+		z-index: 11;
+		height: 50px;
+		float: left;
+		width: 100%
+	}
+	.IconTabbedContent .prod-nav .icons .midTab a, .IconTabbedContent .prod-nav .midTab a {
+		font: 700 1em/1.2em arial, sans-serif;
+		text-transform: uppercase;
+		background-color: transparent;
+		display: block;
+		padding: 0;
+		margin: 0;
+		text-align: left;
+		text-decoration: none;
+		border: none;
+		word-break: break-all;
+		outline-style: none;
+		height: 50px;
+		line-height: 50px;
+		width: 100%
+	}
+	.IconTabbedContent .prod-nav .icons li:first-child a, .IconTabbedContent .prod-nav li.on a, .IconTabbedContent .prod-nav li:first-child a {
+		border-left: 0 solid transparent;
+		background-color: transparent
+	}
+	.IconTabbedContent .prod-nav .icons .midTab a:hover, .IconTabbedContent .prod-nav .icons li .on .midTab a:hover, .IconTabbedContent .prod-nav .midTab a:hover, .IconTabbedContent .prod-nav li .on .midTab a:hover {
+		background-color: transparent
+	}
+	.IconTabbedContent .prod-nav .icons li, .IconTabbedContent .prod-nav li {
+		border-bottom: 1px solid #dbd8d1;
+		font: 400 1em/1.2em arial, sans-serif;
+		display: block;
+		clear: both;
+		width: 100%;
+		margin: 0;
+		padding: 0
+	}
+	.IconTabbedContent .prod-nav .icons li:last-child, .IconTabbedContent .prod-nav li:last-child {
+		border-bottom: 0 none
+	}
+	.IconTabbedContent .prod-nav li .midTab a {
+		color: #505356;
+		padding: 0 0 0 1em;
+		height: 50px;
+		line-height: 50px
+	}
+	.IconTabbedContent .prod-nav .icons .on, .IconTabbedContent .prod-nav .on {
+		padding: 0;
+		margin: 0
+	}
+	.IconTabbedContent .prod-nav .icons li.on .rightTab, .IconTabbedContent .prod-nav li.on .rightTab {
+		display: none
+	}
+	.IconTabbedContent .prod-nav .icons li.on .leftTab, .IconTabbedContent .prod-nav li.on .leftTab {
+		display: none;
+		margin: 0;
+		width: 10px;
+		background-image: none;
+		z-index: 10;
+		height: 50px;
+		float: left
+	}
+	.IconTabbedContent .prod-nav li.on .midTab {
+		position: static;
+		margin: 0;
+		padding: 0;
+		background: url(/resources/Images/QuoteCTA/plus-gray.svg) right 10px center no-repeat
+	}
+	.IconTabbedContent .prod-nav li.on .resp-minus {
+		background: url(/resources/Images/QuoteCTA/minus-gray.svg) right 10px center no-repeat
+	}
+	.IconTabbedContent .prod-nav li.on .resp-plus {
+		background: url(/resources/Images/QuoteCTA/plus-gray.svg) right 10px center no-repeat
+	}
+	.IconTabbedContent .prod-nav li.on .midTab a {
+		height: 50px;
+		line-height: 50px;
+		width: 100%;
+		padding: 0 0 0 1em
+	}
+	.IconTabbedContent .prod-nav li .on .rightTab {
+		display: none;
+		position: static;
+		margin: 0;
+		width: 14px;
+		background-image: none;
+		z-index: 10;
+		height: 50px;
+		float: left
+	}
+	.IconTabbedContent .prod-nav .icons a {
+		padding: 0;
+		margin: 0;
+		background-position: 0 0
+	}
+	.IconTabbedContent .prod-nav.icons li .midTab a {
+		padding: 0;
+		text-indent: 60px
+	}
+	.IconTabbedContent .prod-nav.icons li.on .midTab {
+		position: static;
+		margin: 0;
+		padding: 0;
+		z-index: 11;
+		height: 50px;
+		float: left;
+		width: 100%;
+		background: 0 0
+	}
+	.IconTabbedContent .prod-nav.icons li.on .resp-minus {
+		background: url(/resources/Images/QuoteCTA/minus-gray.svg) right center no-repeat
+	}
+	.IconTabbedContent .prod-nav.icons li.on .resp-plus {
+		background: url(/resources/Images/QuoteCTA/plus-gray.svg) right center no-repeat
+	}
+	.IconTabbedContent .prod-nav.icons li.on .midTab a {
+		padding: 0;
+		height: 50px;
+		line-height: 50px;
+		width: 100%;
+		text-indent: 60px
+	}
+	.IconTabbedContent .prod-nav .icons li .on .rightTab {
+		display: none;
+		position: static;
+		margin: 0;
+		width: 14px;
+		background-image: none;
+		z-index: 10;
+		height: 50px;
+		float: left
+	}
+	.IconTabbedContent .prod-nav li .content img, .prod-container-bot .prod-container .content p img {
+		width: 100%
+	}
+	.IconTabbedContent .prod-nav li .content {
+		margin: 1em
+	}
+	.IconTabbedContent .prod-container {
+		background-image: none;
+		margin: 0 0 13px 4px;
+		padding: 0 8px 13px 0
+	}
+	.IconTabbedContent .prod-container h2 {
+		font: 1.5em/1.875em 'Open Sans', sans-serif;
+		color: #E67E22
+	}
+	.IconTabbedContent .prod-container h2 a {
+		color: #E67E22;
+		text-decoration: none
+	}
+	.IconTabbedContent .prod-container-bot {
+		background-image: none;
+		margin: 0;
+		padding: 0
+	}
+	.IconTabbedContent .prod-container .content {
+		display: none;
+		border: 0 solid #fff;
+		margin: 0!important;
+		padding: 10px 10px 1px 17px!important
+	}
+	.prod-container-bot .prod-container .content p:nth-of-type(2) {
+		display: none
+	}
+	.IconTabbedContent .prod-nav .content h2, .IconTabbedContent .prod-nav .icons .content h2, .IconTabbedContent .prod-nav .icons .on .content h2, .IconTabbedContent .prod-nav .on .content h2 {
+		font: 1.7em/1.3em 'Open Sans', sans-serif;
+		color: #c94e07
+	}
+	.IconTabbedContent .icons .prod-nav .content, .IconTabbedContent .prod-nav .content, .IconTabbedContent .prod-nav .icons .on .content, .IconTabbedContent .prod-nav .on .content {
+		color: #333;
+		background-color: #fff;
+		border: none;
+		margin: 1em;
+		padding: 0;
+		clear: both;
+		position: static;
+		font: 1em/1.5em Arial;
+		text-transform: none
+	}
+	.IconTabbedContent .prod-nav .content .btn-cta, .IconTabbedContent .prod-nav .icons .content .btn-cta, .IconTabbedContent .prod-nav .icons .on .content .btn-cta, .IconTabbedContent .prod-nav .on .content .btn-cta {
+		background-color: #c94e07;
+		color: #FFF!important;
+		display: inline-block;
+		font: 1.2em/1.4em 'Open Sans', sans-serif;
+		margin: 10px 0 0;
+		padding: 10px 18px;
+		text-decoration: none!important;
+		width: auto
+	}
+	.IconTabbedContent .icons .prod-nav .content .btn-cta span, .IconTabbedContent .prod-nav .content .btn-cta span, .IconTabbedContent .prod-nav .icons .on .content .btn-cta span, .IconTabbedContent .prod-nav .on .content .btn-cta span {
+		background-image: url(/resources/Images/cta-arrow-lg.png);
+		background-repeat: no-repeat;
+		background-position: 100% 55%;
+		padding-right: 20px
+	}
+	.IconTabbedContent .prod-nav .content .cta, .IconTabbedContent .prod-nav .icons .content .cta, .IconTabbedContent .prod-nav .icons .on .content .cta, .IconTabbedContent .prod-nav .on .content .cta {
+		margin-top: 25px
+	}
+	.IconTabbedContent .prod-nav .content .cta a, .IconTabbedContent .prod-nav .icons .content .cta a, .IconTabbedContent .prod-nav .icons .on .content .cta a, .IconTabbedContent .prod-nav .on .content .cta a {
+		font-weight: 700;
+		text-align: left
+	}
+	.IconTabbedContent .prod-nav .content .cta span, .IconTabbedContent .prod-nav .icons .content .cta span, .IconTabbedContent .prod-nav .icons .on .content .cta span, .IconTabbedContent .prod-nav .on .content .cta span {
+		background-image: url(/resources/Images/cta-arrow-lg-orange.svg);
+		background-repeat: no-repeat;
+		background-position: right center;
+		padding-right: 15px;
+		color: #333
+	}
+	.IconTabbedContent .prod-nav .icons .on .content p a, .IconTabbedContent .prod-nav .on .content p a {
+		color: #c94e07;
+		text-decoration: none
+	}
+	.QuoteCTA {
+		margin: 0 auto;
+		width: 95%
+	}
+	.QuoteCTA .home-agent-down {
+		padding: 0;
+		background: 0 0
+	}
+	.QuoteCTA .home-agent {
+		background: 0 0
+	}
+	.QuoteCTA .home-agent .content {
+		padding: 5px 10px;
+		margin: 0
+	}
+	.QuoteCTA .home-agent .content.tab-agent-prospect, .QuoteCTA .home-agent .content.tab-quote {
+		border: none;
+		display: none
+	}
+	.QuoteCTA .home-agent .quote-cta-info-customer, .QuoteCTA .home-agent .quote-cta-info-prospect, .QuoteCTA .home-agent .sub-nav, .QuoteCTA .quote-cta-info-prospect, .QuoteCTA .strong {
+		display: none
+	}
+	.QuoteCTA .quote-cta-agent-pagination {
+		display: none!important
+	}
+	.QuoteCTA .home-agent .resp-sub-nav-agent, .QuoteCTA .home-agent .resp-sub-nav-quote {
+		background-color: #1666af;
+		font: 700 1.35em/1em arial, sans-serif;
+		color: #fff;
+		line-height: 200%;
+		width: 100%;
+		display: inline-block;
+		padding-left: 15px
+	}
+	.QuoteCTA .home-agent .resp-sub-nav-agent {
+		border-bottom: 1px solid #dbd8d1
+	}
+	.QuoteCTA .home-agent .content .location a {
+		font: 1em/1em arial, sans-serif
+	}
+	.QuoteCTA .resp-agent-prospect {
+		display: inline-block
+	}
+	.QuoteCTA .resp-agent-collapse {
+		background: url(/resources/Images/QuoteCTA/plus-white.svg) center center no-repeat
+	}
+	.QuoteCTA .resp-agent-collapse.on {
+		background: url(/resources/Images/QuoteCTA/minus-white.svg) center center no-repeat
+	}
+	.QuoteCTA .selectBox-dropdown {
+		position: relative;
+		display: inline-block;
+		padding: 6px 0;
+		margin-right: 7px;
+		margin-top: 0;
+		margin-bottom: 15px;
+		min-width: 187px;
+		font: 700 .9em/1.5em 'Open Sans', arial, sans-serif;
+		color: #333;
+		background-color: #e4e4e4;
+		border-top: 0;
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 1px solid #c8c9cb;
+		text-decoration: none;
+		text-transform: uppercase;
+		cursor: pointer;
+		float: left
+	}
+	.QuoteCTA .selectBox-dropdown .selectBox-arrow {
+		position: absolute;
+		top: 3px;
+		right: 0;
+		width: 18%;
+		height: 30px;
+		background: url(/resources/Images/QuoteCTA/select-arrow-grey.svg) center center no-repeat;
+		border-left: 1px solid #c8c9cb
+	}
+	.QuoteCTA .selectBox-dropdown:focus, .QuoteCTA .selectBox-dropdown:focus .selectBox-arrow {
+		border-color: #c8c9cb
+	}
+	.QuoteCTA .selectBox-dropdown .selectBox-label {
+		padding: 2px 8px;
+		display: inline-block;
+		white-space: nowrap;
+		overflow: hidden;
+		color: #333
+	}
+	.QuoteCTA .selectBox-dropdown-menu {
+		position: absolute;
+		z-index: 99999;
+		min-height: 1em;
+		border: 1px solid #c8c9cb;
+		background-color: #e4e4e4;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch
+	}
+	.QuoteCTA .selectBox-inline {
+		min-width: 150px;
+		border: 1px solid #c8c9cb;
+		background-color: #e4e4e4;
+		display: inline-block;
+		overflow: auto
+	}
+	.QuoteCTA .selectBox-options, .QuoteCTA .selectBox-options LI, .QuoteCTA .selectBox-options LI A {
+		list-style: none;
+		display: block;
+		cursor: pointer;
+		padding: 0;
+		margin: 0
+	}
+	.QuoteCTA .selectBox-options.selectBox-options-bottom, .QuoteCTA .selectBox-options.selectBox-options-top {
+		border-bottom: 1px solid #c8c9cb
+	}
+	.QuoteCTA .selectBox-options LI A {
+		padding: 7px 0 7px 20px;
+		margin: 0 5px;
+		font: 700 .9em/1.6em 'Open Sans', arial, sans-serif;
+		color: #333;
+		text-transform: uppercase;
+		white-space: nowrap;
+		overflow: hidden
+	}
+	.QuoteCTA .selectBox-options LI:first-child A {
+		border: none
+	}
+	.QuoteCTA .selectBox-options LI.selectBox-hover A {
+		color: #666
+	}
+	.QuoteCTA .selectBox-options LI.selectBox-selected A {
+		color: #666;
+		background: url(/resources/Images/select-check.svg) center left no-repeat
+	}
+	.QuoteCTA .home-agent .btn {
+		padding: 9px 15px;
+		background-color: #1666af;
+		float: left;
+		clear: right;
+		text-transform: uppercase;
+		font: 1.1em/1.5em arial, sans-serif;
+		border-radius: 0
+	}
+	.QuoteCTA .home-agent .btn:hover {
+		color: #fff;
+		background-color: #1666af;
+		text-transform: uppercase
+	}
+	.QuoteCTA .home-agent .btn span {
+		padding-right: 0;
+		background: 0 0
+	}
+	.QuoteCTA .home-agent .content .sm {
+		clear: both
+	}
+	.QuoteCTA .home-agent .quote-cta-info-customer img {
+		width: 90px
+	}
+	.QuoteCTA .home-agent .quote-cta-info-customer li {
+		left: 0
+	}
+	.FreeTextScroller {
+		position: relative
+	}
+	.FreeTextScroller .home-carousel {
+		display: none
+	}
+	.FreeTextScroller .FreeTextScrollerFooter *, .FreeTextScroller .FreeTextScrollerHeader * {
+		width: 90%
+	}
+	.respFreeTextScroller {
+		display: block;
+		width: 90%;
+		margin: 0 auto!important;
+		clear: both;
+		padding-left: 20px;
+		height: auto
+	}
+	.respFreeTextScroller .respFreeTextContainer {
+		position: relative;
+		width: 100%!important;
+		margin: 0 auto;
+		padding: 0 20px;
+		height: auto
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides {
+		position: relative;
+		list-style: none;
+		overflow: hidden;
+		width: 100%!important;
+		padding: 0;
+		margin: 0 auto;
+		height: auto
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .slides-inner {
+		width: 100%!important;
+		height: auto!important;
+		background-color: #fff!important
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides li {
+		-webkit-backface-visibility: hidden;
+		position: absolute;
+		display: none;
+		width: 100%!important;
+		left: 0;
+		top: 0
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides li:first-child {
+		position: relative;
+		display: block;
+		float: left
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .slideContents {
+		display: inline-block!important;
+		width: 100%!important;
+		border: 0;
+		background-color: #fff
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .btn-cta-sm, .respFreeTextScroller .respFreeTextContainer .respSlides .btn-cta-sm span, .respFreeTextScroller .respFreeTextContainer .respSlides p {
+		display: inline-block
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides img {
+		margin: 0 auto
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides h3 {
+		color: #e67e22;
+		font: 400 1.3em/1.5em arial, sans-serif;
+		padding: 10px 0
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides p {
+		display: inline-block;
+		color: #333;
+		font: 400 1em/1.5em arial, sans-serif;
+		text-align: left
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .ImgContainer {
+		width: 40%;
+		display: inline-block;
+		float: right;
+		text-align: center
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .ImgContainer img {
+		display: inline-block;
+		width: 90%;
+		height: 90%;
+		padding: 20px 20px 20px 0
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent {
+		display: inline-block;
+		float: left;
+		width: 55%;
+		padding-left: 5%
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent p a {
+		color: #000;
+		font: 700 14px/18px arial, sans-serif;
+		height: 30px;
+		line-height: 30px
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent p a span:last-child {
+		background-image: url(/resources/Images/cta-arrow-lg-orange.svg);
+		background-position: 100% 65%;
+		background-repeat: no-repeat;
+		padding-right: 15px;
+		height: 30px;
+		width: 30px;
+		line-height: 30px
+	}
+	.respFreeTextScroller .respFreeTextContainer .respSlides .SlideContents .InnerContent h3 {
+		display: inline-block;
+		color: #c94e07;
+		font: 400 21px/25px arial, sans-serif;
+		padding: 20px 0 0;
+		margin: 0
+	}
+	.respFreeTextScroller .SlidesInner a:visited, .respFreeTextScroller .restSlidesInner a:link {
+		text-decoration: none
+	}
+	.respFreeTextScroller .SlidesInner a:hover {
+		color: #d0670c;
+		text-decoration: underline
+	}
+	.respFreeTextScroller .resp-slides-nav {
+		text-align: center;
+		padding-left: 0;
+		display: inline-block;
+		width: 100%;
+		margin: 0 auto
+	}
+	.respFreeTextScroller .resp-slides-nav a {
+		display: inline-block;
+		padding: 18px 15px;
+		height: 20px;
+		width: 4%;
+		text-indent: -9999px;
+		background: url(/resources/images/slides-nav.svg) 0 -44px no-repeat;
+		outline-style: none
+	}
+	.respFreeTextScroller .slides-inner {
+		background-color: #FFF!important;
+		width: 100%!important;
+		margin: 0 auto;
+		height: auto!important
+	}
+	.respFreeTextScroller .slides-inner .slide-bot {
+		margin: 7px!important;
+		width: 95%!important
+	}
+	.respFreeTextScroller .resp-slides-nav a.activeSlide {
+		background-position: 0 0
+	}
+	.respFreeTextScroller .resp-slides_next, .respFreeTextScroller .resp-slides_prev {
+		display: block;
+		height: 10%;
+		width: 18px;
+		cursor: pointer;
+		background: url(/resources/images/slides-prev-next.svg) no-repeat!important;
+		position: absolute!important;
+		top: 125px;
+		text-indent: -9999px;
+		text-decoration: none
+	}
+	.respFreeTextScroller .resp-slides_prev {
+		left: 10px!important
+	}
+	.respFreeTextScroller .resp-slides_next {
+		right: 10px!important;
+		background-position: -18px 0!important
+	}
+	.GasPriceLocator {
+		width: 300px;
+		margin: 0 auto
+	}
+	.GasPriceLocator .Main .LeftColumn {
+		margin: 0 25px
+	}
+	.GasPriceLocator .Main .LeftColumn .ZipError {
+		margin-top: 0
+	}
+	.GasPriceLocator .Main .LeftColumn .Form .Zip {
+		height: 28px
+	}
+	.GasPriceLocator .Results ul {
+		left: -14px
+	}
+	.GasPriceLocator .Footer {
+		width: 87%
+	}
+	.GasPriceLocator .LocationMap {
+		width: 100%;
+		height: 72%
+	}
+	.GasPriceLocator .CTA a {
+		right: 3px;
+		height: 47%
+	}
+	.LargeTeasers .content {
+		width: 95%!important;
+		margin: 0 auto
+	}
+	.LargeTeasers .product-topic {
+		height: auto!important;
+		width: 100%;
+		margin: 0 auto!important;
+		float: none!important;
+		border-bottom: 1px solid #DDD!important;
+		border-left: none;
+		border-right: none;
+		border-top: none
+	}
+	.LargeTeasers .product-topic a {
+		color: #c94e07!important;
+		line-height: 1.3em
+	}
+	.LargeTeasers .product-topic :hover {
+		color: #D0670C!important
+	}
+	.LargeTeasers .feature-row, .LargeTeasers .product-topic a img {
+		height: auto;
+		width: 100%
+	}
+	.LargeTeasers .gigyaShare {
+		position: static!important;
+		text-align: right;
+		margin-right: -5px;
+		margin-top: 15px
+	}
+	.LargeTeasers .gigyaShare .gig-share-bar-container {
+		display: inline-block
+	}
+	.LargeTeasers .product-topic .product-topic-desc {
+		padding-bottom: 35px
+	}
+	.LargeTeasers .product-topic .product-topic-desc span {
+		color: #FFF!important
+	}
+	.FilteredSmallTeasers {
+		width: 95%!important;
+		margin: 0 auto
+	}
+	.FilteredSmallTeasers .topic-nav {
+		text-align: left!important;
+		padding-left: 0;
+		font-size: 1.15em
+	}
+	.FilteredSmallTeasers .header .headerTitle h3 {
+		font: .85em/1.2em "Open Sans", sans-serif!important
+	}
+	.FilteredSmallTeasers .product-topics .product-topic {
+		width: 100%!important
+	}
+	.FilteredSmallTeasers .product-topics a {
+		color: #333!important
+	}
+	.FilteredSmallTeasers .product-topics .product-topic-title {
+		vertical-align: top
+	}
+	.TabbedContentBox {
+		width: 95%;
+		margin: 0 auto;
+		position: relative
+	}
+	.TabbedContentBox .top-tabs li {
+		width: 100%!important;
+		border-bottom: 1px solid #FFF;
+		float: none!important
+	}
+	.TabbedContentBox .top-tabs .corner {
+		position: relative;
+		background: #1666af!important
+	}
+	.TabbedContentBox span {
+		padding: 0 15px
+	}
+	.TabbedContentBox .top-tabs .tabTable {
+		min-height: 42px
+	}
+	.TabbedContentBox .top-tabs .tabHeader {
+		text-align: left;
+		font: 700 1.35em/2em Arial, sans-serif;
+		color: #FFF!important
+	}
+	.TabbedContentBox .top-tabs .arrow {
+		height: 16px!important;
+		width: 16px!important;
+		background: url(/resources/Images/QuoteCTA/plus-white.svg) center center no-repeat!important;
+		display: inline-block;
+		position: absolute;
+		top: 12px;
+		right: 9px
+	}
+	.TabbedContentBox .top-tabs .expanded .arrow {
+		background: url(/resources/Images/QuoteCTA/minus-white.svg) center center no-repeat!important
+	}
+	.TabbedContentBox .top-content-box {
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		display: none
+	}
+	.TabbedContentBox .top-content-box .content-area {
+		padding-top: 10px
+	}
+	.TabbedContentBox .content table {
+		width: 100%
+	}
+	.TabbedContentBox .content td .paymethod-cta img {
+		margin: 0 auto;
+		width: 102px
+	}
+	.ExpandableParagraph {
+		margin-right: 25px;
+		margin-left: 3%
+	}
+	.ListScroller {
+		width: 95%;
+		margin: 55px auto 0
+	}
+	.ListScroller .slides_next-list {
+		right: 5px
+	}
+	.ListScroller .home-carousel-list .slides-outer-list {
+		margin-left: 3px;
+		width: 100%!important
+	}
+	.ListScroller .home-carousel-list .slides-inner-list {
+		padding-left: 0;
+		width: 100%!important;
+		height: auto!important
+	}
+	.ListScroller .coverage-chart .header .headline {
+		line-height: 30px
+	}
+	.ListScroller .coverage-chart .header .subheadline {
+		line-height: 16px
+	}
+	.ListScroller .slides-nav-list a {
+		height: 44px
+	}
+	.VerticalExpandingSection .content ul {
+		list-style: none;
+		padding-left: 2%;
+		padding-right: 2%
+	}
+	#usn-contentText {
+		width: 95%!important;
+		margin: 0 auto!important;
+		float: none!important
+	}
+	#usn-contentText ul.make-list {
+		min-width: 165px!important;
+		list-style-type: none!important;
+		margin: 0!important
+	}
+	#usn-contentText ul.make-list:last-child {
+		margin-bottom: 10px!important
+	}
+	#usn-contentText ul.model-list {
+		max-width: 100%
+	}
+	#usn-contentText #top-box {
+		height: auto!important;
+		position: relative!important;
+		display: table!important;
+		width: 100%!important;
+		table-layout: fixed
+	}
+	#usn-contentText #top-box p {
+		width: 100%!important;
+		display: table-footer-group!important;
+		float: none!important
+	}
+	#usn-contentText #top-box img#car-image {
+		float: none!important;
+		margin: 0 auto!important;
+		max-width: 100%!important;
+		height: auto!important
+	}
+	#usn-contentText #top-box a img {
+		position: static!important;
+		padding-top: 17px!important;
+		padding-bottom: 13px!important;
+		margin: 0 auto!important;
+		max-width: 100%!important
+	}
+	#usn-contentText #cost h3 span {
+		display: block!important;
+		padding: 5px 0 5px 1px!important
+	}
+	#usn-contentText #cost a.step, #usn-contentText #cost p {
+		margin-left: 15px!important
+	}
+	#usn-contentText #cost a img {
+		margin-left: 35px!important;
+		max-width: 100%
+	}
+	#usn-contentText #cost p.btn {
+		margin-left: 35px!important;
+		width: auto!important
+	}
+	#usn-contentText #discounts ul {
+		width: auto!important
+	}
+	#usn-contentText #compare table.test-ratings {
+		margin-right: 0!important
+	}
+	#usn-contentText #compare table.test-ratings td.test-result {
+		width: 66px!important
+	}
+	#usn-contentText #compare table.test-ratings td.test-result img {
+		height: auto!important;
+		max-width: 100%;
+		width: 100%
+	}
+	@-moz-document url-prefix(http), url-prefix(file) {
+		#usn-contentText #top-box img#car-image:-moz-broken {
+			-moz-force-broken-image-icon:1
+		}
+	}
+	.NavigationFooter .footerNav {
+		text-align: left;
+		padding: 10px
+	}
+	.NavigationFooter .quoteCTA {
+		width: 100%;
+		max-width: 265px;
+		float: none;
+		margin: 20px auto auto;
+		text-align: left;
+		padding-left: 0;
+		padding-right: 0
+	}
+	.NavigationFooter .quoteType {
+		width: 265px;
+		border-radius: 6px 6px 0 0
+	}
+	.NavigationFooter .getQuote {
+		width: 265px;
+		border-radius: 0 0 6px 6px
+	}
+	.NavigationFooter .findAgent {
+		float: none;
+		margin-top: 15px;
+		width: 100%
+	}
+	.NavigationFooter .companyLogo {
+		float: none;
+		width: 100%
+	}
+	.NavigationFooter .quoteLink {
+		max-width: 100%
+	}
+	.NavigationFooter .socialLinks {
+		padding: 35px 0
+	}
+	.NavigationFooter .copyRight {
+		padding-top: 35px
+	}
+	.NavigationFooter .copyRight p {
+		margin-top: 5px
+	}
+	.NavigationFooter .centerColumns {
+		margin: auto;
+		text-align: center;
+		float: none
+	}
+	.NavigationFooter .centerColumns li {
+		margin-bottom: 20px
+	}
+	.NavigationFooter .bottomLinks, .NavigationFooter .cColumn {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		padding: 25px 0 0;
+		border-top: 1px solid #eaeaea
+	}
+	.NavigationFooter .bottomLinks h4 {
+		display: block;
+		text-align: center
+	}
+	.NavigationFooter .bottomLinks ul {
+		padding-left: 0
+	}
+	.NavigationFooter .bottomLinks li {
+		font-size: 1em;
+		padding-left: 0;
+		padding-right: 0!important;
+		float: none;
+		width: 100%;
+		max-width: 100%;
+		margin-bottom: 20px
+	}
+	.NavigationFooter .bottomLinks li a {
+		text-transform: none
+	}
+	.NavigationFooter .bottomLinks ul li:first-child {
+		display: list-item
+	}
+	.NavigationFooter .bottomLinks a {
+		color: #0075c9
+	}
+	.NavigationFooter .bottomLinks a:hover {
+		color: #1666af
+	}
+	.NavigationFooter .agentCTA {
+		float: none;
+		margin: 20px auto auto;
+		text-align: left;
+		padding-left: 0;
+		padding-right: 0;
+		width: 320px;
+		min-width: 320px
+	}
+	.NavigationFooter .agentInfo, .NavigationFooter .agentListing {
+		min-width: 267px
+	}
+	.NavigationFooter .agent-nav .pagination-nav {
+		padding: 21px 0 0;
+		display: inline-block
+	}
+	.NavigationFooter .cColumn:first-child {
+		border: none;
+		padding-top: 0
+	}
+	.NavigationFooter .agentName {
+		font-size: 1.17em;
+		max-width: 160px
+	}
+	.NavigationFooter .agentNameProduct {
+		padding-right: 0
+	}
+	.NavigationFooter .agentList {
+		min-width: 267px;
+		margin-left: 25px
+	}
+	.NavigationFooter .agentListing li {
+		width: 267px
+	}
+	.NavigationFooter .agentPhoneDiv {
+		display: none
+	}
+	.NavigationFooter .agentContactIconsBottom .thDImage {
+		width: 87px;
+		height: 50px
+	}
+	.NavigationFooter .agentContactIconsBottom ul {
+		margin-top: 1px
+	}
+	.NavigationFooter .agentContactIconsBottom ul li {
+		width: 87px
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactPhone {
+		display: inline-block;
+		padding-top: 0;
+		margin-right: 3px
+	}
+	.HeroBanner .forgotId, .HeroBanner .forgotPassword, .HeroBanner .registerLink, .HeroBanner .subTitle {
+		display: none
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactPhone img {
+		background-position: -42px -623px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactPhone img:hover {
+		background-position: -42px -703px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactEmail {
+		padding-top: 0;
+		margin-right: 3px
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactEmail img {
+		background-position: -167px -623px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactEmail img:hover {
+		background-position: -167px -703px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactWebsite {
+		padding-top: 0;
+		margin-right: 0
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactWebsite img {
+		background-position: -291px -623px!important
+	}
+	.NavigationFooter .agentContactIconsBottom .agentContactWebsite img:hover {
+		background-position: -291px -703px!important
+	}
+	.HeroBanner .quoteType {
+		margin-bottom: 1px;
+		width: 210px;
+		height: 30px
+	}
+	.HeroBanner .freeTextBar, .HeroBanner .quoteCTA {
+		width: 33%!important;
+		height: 280px!important;
+		min-width: 250px;
+		min-height: 280px;
+		margin-right: 0!important
+	}
+	.HeroBanner .title {
+		padding-top: 11px;
+		padding-bottom: 11px;
+		font-size: 2.5em
+	}
+	.HeroBanner .freeTextTitle {
+		padding-top: 52px;
+		padding-bottom: 16px;
+		font-size: 2.5em
+	}
+	.HeroBanner .getQuote {
+		margin-bottom: 10px;
+		width: 210px;
+		height: 30px
+	}
+	.HeroBanner .retrieveQuoteLink {
+		margin-bottom: 11px
+	}
+	.HeroBanner .coverageOptions {
+		margin-top: 16px;
+		margin-bottom: 41px;
+		width: 200px;
+		height: 50px;
+		padding-top: 13px;
+		font-size: 1em
+	}
+	.HeroBanner .zipCode {
+		margin-top: 1em
+	}
+	.HeroBanner .loginBar {
+		width: 100%;
+		height: 275px!important;
+		background: rgba(255,255,255,1)!important;
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.HeroBanner .logInTitle {
+		margin-bottom: 30px;
+		text-align: center;
+		font-size: 1.15em;
+		padding-top: 30px
+	}
+	.HeroBanner .passwordHeroBanner, .HeroBanner .usernameHeroBanner {
+		padding-left: 12px;
+		margin-bottom: 5px;
+		height: 38px;
+		width: 100%
+	}
+	.HeroBanner .passwordHeroBanner {
+		padding-right: 38px
+	}
+	.HeroBanner .logIn {
+		width: 100%;
+		margin-bottom: 38px;
+		height: 45px;
+		text-align: center;
+		padding: 9px 0 0
+	}
+	.HeroBanner .mobileForgotLinks, .HeroBanner .mobileRegisterLink {
+		display: inline-block;
+		font-size: 1em
+	}
+	.HeroBanner .mobileRegisterLink {
+		margin-bottom: 28px;
+		float: right
+	}
+	.MiddleNavigation .getQuote {
+		min-width: 266px;
+		font-size: 1.14em;
+		border-radius: 0 0 6px 6px
+	}
+	.MiddleNavigation .navIcons {
+		min-width: 266px;
+		max-width: 266px;
+		overflow: auto;
+		text-align: center;
+		padding-left: 0
+	}
+	.MiddleNavigation .navIcons a {
+		font-size: 1em
+	}
+	.MiddleNavigation .navIcons a figcaption {
+		float: none;
+		text-align: center
+	}
+	.MiddleNavigation .navIcons img {
+		width: 70px;
+		height: 70px;
+		float: none
+	}
+	.MiddleNavigation .navIcons li {
+		padding-left: 0;
+		min-width: 84px;
+		text-align: center
+	}
+	.MiddleNavigation .navIcons li:nth-child(n+2) {
+		padding-left: 7px
+	}
+	.MiddleNavigation .navIcons li:nth-child(3n+1) {
+		padding-left: 0
+	}
+	.MiddleNavigation .navIcons li:nth-child(n+4) {
+		padding-top: 20px
+	}
+	.MiddleNavigation .quoteCTA {
+		padding-top: 0;
+		padding-left: 0;
+		display: block;
+		margin: auto;
+		max-width: 266px
+	}
+	.MiddleNavigation .quoteLocationSaved {
+		padding-bottom: 15px
+	}
+	.MiddleNavigation .quoteType {
+		min-width: 266px;
+		font-size: 1.14em;
+		border-radius: 6px 6px 0 0
+	}
+	.SmallFreeTextScroller .SFTSOuter {
+		max-width: 340px;
+		width: 100%;
+		margin: auto
+	}
+	.SmallFreeTextScroller .sfts-slides-outer {
+		min-width: 300px
+	}
+	.SmallFreeTextScroller .sfts-home-carousel li, .SmallFreeTextScroller .sfts-home-carousel ul {
+		max-width: 170px
+	}
+	.SmallFreeTextScroller .owl-pagination {
+		width: 250px;
+		margin-left: -50px;
+		margin-bottom: 35px
+	}
 }
