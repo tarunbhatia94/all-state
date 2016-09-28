@@ -1,2 +1,0 @@
-#base=styles
-view_image_apps.css

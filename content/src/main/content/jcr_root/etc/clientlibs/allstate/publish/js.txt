@@ -1,2 +1,0 @@
-#base=scripts
-view_image_apps.js
