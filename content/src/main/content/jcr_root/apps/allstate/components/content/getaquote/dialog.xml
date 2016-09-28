@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="Quote Dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <tab1
+                jcr:primaryType="cq:Panel"
+                title="Edit Product  Details">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <getaquote
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter a Product Item"
+                        name="./quote"
+                        xtype="multifield">
+                        <fieldConfig
+                            jcr:primaryType="nt:unstructured"
+                            xtype="multifieldpanel">
+                            <items jcr:primaryType="cq:WidgetCollection">
+                                <title
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Enter Product  Name"
+                                    key="title"
+                                    width="500"
+                                    xtype="textfield"/>
+                                <link
+                                    jcr:primaryType="cq:Widget"
+                                    fieldLabel="Enter Product  Link"
+                                    key="link"
+                                    rootPath="/content"
+                                    width="500"
+                                    xtype="pathfield"/>
+                                <icon
+                                    jcr:primaryType="cq:Widget"
+                                    anchor="100%"
+                                    fieldLabel="Select  Icon"
+                                    key="icon"
+                                    type="select"
+                                    width="500"
+                                    xtype="selection">
+                                    <options jcr:primaryType="cq:WidgetCollection">
+                                        <option1
+                                            jcr:primaryType="cq:Widget"
+                                            text="Auto Icon"
+                                            value="quote_Au"/>
+                                        <option2
+                                            jcr:primaryType="cq:Widget"
+                                            text="Home Icon"
+                                            value="quote_Ho"/>
+                                        <option3
+                                            jcr:primaryType="cq:Widget"
+                                            text="Renters Image"
+                                            value="quote_Re"/>
+                                        <option4
+                                            jcr:primaryType="cq:Widget"
+                                            text="Life"
+                                            value="quote_Li"/>
+                                        <option5
+                                            jcr:primaryType="cq:Widget"
+                                            text="Condo"
+                                            value="quote_Co"/>
+                                        <option6
+                                            jcr:primaryType="cq:Widget"
+                                            text="Motorcycle"
+                                            value="quote_Mo"/>
+                                        <option7
+                                            jcr:primaryType="cq:Widget"
+                                            text="Boat"
+                                            value="quote_Bo"/>
+                                        <option8
+                                            jcr:primaryType="cq:Widget"
+                                            text="ATV/Rec. Vehicle"
+                                            value="quote_RV"/>
+                                        <option9
+                                            jcr:primaryType="cq:Widget"
+                                            text="Business Insurance"
+                                            value="quote_BI"/>
+                                        <option10
+                                            jcr:primaryType="cq:Widget"
+                                            text="More Insurance"
+                                            value="quote_Mr"/>
+                                        <option11
+                                            jcr:primaryType="cq:Widget"
+                                            text="Find An Agent"
+                                            value="quote_Fi"/>
+                                    </options>
+                                </icon>
+                            </items>
+                        </fieldConfig>
+                    </getaquote>
+                </items>
+            </tab1>
+            <tab2
+                jcr:primaryType="cq:Panel"
+                title="Enter General info">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <getaquoteinfo
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Quote Info"
+                        name="./quoteinfo"
+                        xtype="textfield"/>
+                    <locationtitle
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Location Title"
+                        name="./locationtitle"
+                        xtype="textfield"/>
+                    <quoteselectiontitle
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Quote Selection Title"
+                        name="./quotetitle"
+                        xtype="textfield"/>
+                    <retrievequotetext
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Retrieve Text"
+                        name="./retrievequote"
+                        xtype="textfield"/>
+                </items>
+            </tab2>
+        </items>
+    </items>
+</jcr:root>
