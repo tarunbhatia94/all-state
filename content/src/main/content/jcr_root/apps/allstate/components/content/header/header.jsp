@@ -5,7 +5,8 @@
     <!--Include head script that loads css and js-->
     <cq:include script="head.jsp"/>
 	<body>
-        <div class="ls-row LayoutHeader" id="headerRow">
+        <div class="ls-row LayoutHeader" id="headerRow" style="position:relative !important">
+
   <div class="ls-fxr" id="ls-gen7909227-ls-fxr">
     <div class="ls-area LayoutHeaderArea" id="headerArea">
       <div class="ls-area-body" id="ls-gen7909228-ls-area-body">

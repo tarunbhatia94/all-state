@@ -3,6 +3,6 @@
     jcr:description="AllState Logo component"
     jcr:primaryType="cq:Component"
     jcr:title="AllState Logo"
-    sling:resourceSuperType="allstate/components/global/parbase"
+    sling:resourceSuperType="foundation/components/parbase"
     allowedParents="[*/parsys]"
     componentGroup="Allstate-General"/>

@@ -1,6 +1,8 @@
 <%@include file="/apps/allstate/global.jsp"%>
 
-<cq:include path="body" resourceType="foundation/components/parsys"/>
+<div id="mainContent" class="mainContainer">
+<cq:include path="bodypar" resourceType="foundation/components/parsys"/>
+    </div>
 
 
 

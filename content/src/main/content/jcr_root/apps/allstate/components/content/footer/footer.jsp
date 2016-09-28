@@ -4,7 +4,7 @@
     </div>
     
     <!--Footer Starts here-->
-    <div class="ls-row LayoutFooter" id="footerRow">
+    <div class="ls-row LayoutFooter" id="footerRow" style="position:relative !important">
       <div class="ls-fxr" id="ls-gen7909242-ls-fxr">
         <div class="ls-area LayoutFooterArea" id="footerArea">
           <div class="ls-area-body" id="ls-gen7909243-ls-area-body">

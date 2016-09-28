@@ -2,4 +2,5 @@
 <workspaceFilter version="1.0">
     <filter root="/apps/allstate"/>
 	<filter root="/etc/clientlibs/allstate"/>
+	<filter root="/content/dam/allstate"/>
 </workspaceFilter>
