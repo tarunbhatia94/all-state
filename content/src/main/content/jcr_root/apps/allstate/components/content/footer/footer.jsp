@@ -1,4 +1,4 @@
-<%@include file="/apps/allstate/global.jsp"%>
+
  <div class="ls-row LayoutBody" id="bodyContainer" style="position:relative !important;">
        <!--Body content here-->
     </div>
