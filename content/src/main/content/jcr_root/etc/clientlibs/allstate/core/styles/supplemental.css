@@ -2356,66 +2356,73 @@ margin:5px 0
  						   .rtnDImage {background: transparent url(../images/Destop-Nav-Sprite-V.png) center top no-repeat; }
 						     @media screen and (max-width : 767px) { .IconTopNavigation, .LocationHeader { display:none } .ResponsiveTopNavigation .mobileNavBar, .ResponsiveTopNavigation .mobileNavbar-inverse, .ResponsiveTopNavigation .rwdNavigation {display: block;} .ResponsiveTopNavigation #slide-mobileNav .container {padding: 0 0 0 15px;} }
         .rtnImage {background: transparent url(../images/responsive-nav-sprite-v.png) 0 0 no-repeat; width: 20px; height: 20px;}
-		
-		   .lbnImage{background: transparent url(../images/social-icons-sprite.png) center top no-repeat; width:32px ;height:32px;}
+
+		.icons{
+   	 		float: left;
+    		width: 20px;
+    		height: 20px;
+
+    	}
+
+		   .lbnImage{background: transparent url(/etc/designs/allstate/images/social-icons-sprite.png) center top no-repeat; width:32px ;height:32px;}
                                       @media screen and (max-width : 767px)
                                       {
-                                      .lbnImage{background: transparent url(../images/social-icons-sprite.png) center top no-repeat; width:32px ;height:32px;}
+                                      .lbnImage{background: transparent url(/etc/designs/allstate/images/social-icons-sprite.png) center top no-repeat; width:32px ;height:32px;}
                                       }
                                       
-                                        .lbnNavIcon_sIcon1 img { background-position: center -32px !important;}
+                                        .lbnNavIcon_sIcon1 { background-position: center -32px !important;}
                                         .lbnNavIcon_sIcon1 img:hover { background-position: center -32px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon1 img { background-position: center -32px !important;}
+                                        .lbnNavIcon_sIcon1 { background-position: center -32px !important;}
                                         .lbnNavIcon_sIcon1 img:hover { background-position: center -32px !important;}
                                         }
                                       
-                                        .lbnNavIcon_sIcon2 img { background-position: center -96px !important;}
+                                        .lbnNavIcon_sIcon2 { background-position: center -96px !important;}
                                         .lbnNavIcon_sIcon2 img:hover { background-position: center -96px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon2 img { background-position: center -96px !important;}
+                                        .lbnNavIcon_sIcon2 { background-position: center -96px !important;}
                                         .lbnNavIcon_sIcon2 img:hover { background-position: center -96px !important;}
                                         }
                                       
-                                        .lbnNavIcon_sIcon3 img { background-position: center -160px !important;}
+                                        .lbnNavIcon_sIcon3 { background-position: center -160px !important;}
                                         .lbnNavIcon_sIcon3 img:hover { background-position: center -160px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon3 img { background-position: center -160px !important;}
+                                        .lbnNavIcon_sIcon3 { background-position: center -160px !important;}
                                         .lbnNavIcon_sIcon3 img:hover { background-position: center -160px !important;}
                                         }
                                       
-                                        .lbnNavIcon_sIcon4 img { background-position: center -224px !important;}
+                                        .lbnNavIcon_sIcon4 { background-position: center -224px !important;}
                                         .lbnNavIcon_sIcon4 img:hover { background-position: center -224px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon4 img { background-position: center -224px !important;}
+                                        .lbnNavIcon_sIcon4 { background-position: center -224px !important;}
                                         .lbnNavIcon_sIcon4 img:hover { background-position: center -224px !important;}
                                         }
                                       
-                                        .lbnNavIcon_sIcon5 img { background-position: center -288px !important;}
+                                        .lbnNavIcon_sIcon5 { background-position: center -288px !important;}
                                         .lbnNavIcon_sIcon5 img:hover { background-position: center -288px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon5 img { background-position: center -288px !important;}
+                                        .lbnNavIcon_sIcon5 { background-position: center -288px !important;}
                                         .lbnNavIcon_sIcon5 img:hover { background-position: center -288px !important;}
                                         }
                                       
-                                        .lbnNavIcon_sIcon6 img { background-position: center -352px !important;}
+                                        .lbnNavIcon_sIcon6 { background-position: center -352px !important;}
                                         .lbnNavIcon_sIcon6 img:hover { background-position: center -352px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon6 img { background-position: center -352px !important;}
+                                        .lbnNavIcon_sIcon6 { background-position: center -352px !important;}
                                         .lbnNavIcon_sIcon6 img:hover { background-position: center -352px !important;}
                                         }
                                       
-                                        .lbnNavIcon_sIcon7 img { background-position: center -416px !important;}
+                                        .lbnNavIcon_sIcon7 { background-position: center -416px !important;}
                                         .lbnNavIcon_sIcon7 img:hover { background-position: center -416px !important;}
                                         @media screen and (max-width : 767px)
                                         {
-                                        .lbnNavIcon_sIcon7 img { background-position: center -416px !important;}
+                                        .lbnNavIcon_sIcon7 { background-position: center -416px !important;}
                                         .lbnNavIcon_sIcon7 img:hover { background-position: center -416px !important;}
                                         }
  

@@ -4,17 +4,17 @@
     <jcr:content jcr:primaryType="nt:unstructured">
         <folderThumbnail/>
     </jcr:content>
+    <get-a-quote-es.svg/>
     <acct-nav-arrow.svg/>
     <drop-nav-shadow.svg/>
-    <get-a-quote-es.svg/>
-    <get-a-quote-mobile.svg/>
-    <get-a-quote-mobile-es.svg/>
-    <nav-shadow.svg/>
-    <img_trans.gif/>
-    <lock.svg/>
     <get-a-quote.svg/>
-    <nav-closed.png/>
+    <get-a-quote-mobile-es.svg/>
+    <get-a-quote-mobile.svg/>
+    <lock.svg/>
+    <img_trans.gif/>
+    <nav-shadow.svg/>
     <pin.svg/>
     <quote_selection.svg/>
+    <nav-closed.png/>
     <quote-btm-shadow.svg/>
 </jcr:root>

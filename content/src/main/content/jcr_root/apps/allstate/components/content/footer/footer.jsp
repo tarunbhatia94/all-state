@@ -182,20 +182,16 @@
                     <div class="FooterInner">
                       <div class="lbnColumn" style="width:31%">
                         <ul class="FooterImage TextCenter">
-                          <li class="PositioningDiv"><a class="AllstateLogo" href="#" target="_top" name="&amp;lpos=LogoBottomNavigation"><img src="images/logo_footer.png" alt="Allstate logo. "/></a></li>
+                          <li class="PositioningDiv">
+								<!-- Logo COmponent -->                  
+                       <cq:include path="logo" resourceType="allstate/components/global/logo" />
+							</li>
                         </ul>
                         <ul class="FooterGray FooterSocial TextLeft">
                           <li class="lbnRowTitle"><a href="#" Target="_top">Connect With Us</a></li>
-                
-                          <ul class="social">
-                            <li><a href="http://www.facebook.com/Allstate" target="_blank" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['Facebook']);" class="lbnNavIcon_sIcon1"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                            <li><a href="http://www.twitter.com/allstate" target="_blank" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['Twitter']);" class="lbnNavIcon_sIcon2"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                            <li><a href="http://www.linkedin.com/company/allstate/products" target="_blank" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['LinkedIn']);" class="lbnNavIcon_sIcon3"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                            <li><a href="http://www.youtube.com/Allstate" target="_blank" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['YouTube']);" class="lbnNavIcon_sIcon4"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                            <li><a href="https://plus.google.com/114398740575214341621" target="_top" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['GooglePlus']);" class="lbnNavIcon_sIcon5"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                            <li><a href="http://www.pinterest.com/allstate" target="_blank" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['Pinterest']);" class="lbnNavIcon_sIcon6"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                            <li><a href="http://www.instagram.com/allstate" target="_blank" name="&amp;lpos=LogoBottomNavigation" OnClick="ProcessMetrics('SocialIcons', ['Instagram']);" class="lbnNavIcon_sIcon7"><img src="resources/images/ResponsiveTopNavigation/img_trans.gif" alt="" class="lbnImage"/></a></li>
-                          </ul>
+
+                			<!-- Social Icons Component -->
+                            <cq:include path="footericons" resourceType="allstate/components/content/footer_icons" />
                         </ul>
                       </div>
                       <div class="lbnColumn" style="width:21%">
