@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    title="dialog"
+    xtype="dialog">
+    <items
+        jcr:primaryType="cq:Widget"
+        xtype="tabpanel">
+        <items jcr:primaryType="cq:WidgetCollection">
+            <social_x0020_links
+                jcr:primaryType="cq:Panel"
+                title="Social Links">
+                <items jcr:primaryType="cq:WidgetCollection">
+                    <facebook
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Facebook link "
+                        name="./facebook"
+                        xtype="textfield"/>
+                    <twitter
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Twitter link"
+                        name="./twitter"
+                        xtype="textfield"/>
+                    <linkedn
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter Linkedin link "
+                        name="./linkedn"
+                        xtype="textfield"/>
+                    <youtube
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter youtube link "
+                        name="./youtube"
+                        xtype="textfield"/>
+                    <googleplus
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter google plus link "
+                        name="./googleplus"
+                        xtype="textfield"/>
+                    <pinterest
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter pinterest link"
+                        name="./pinterest"
+                        xtype="textfield"/>
+                    <instagram
+                        jcr:primaryType="cq:Widget"
+                        fieldLabel="Enter instagram link"
+                        name="./instagram"
+                        xtype="textfield"/>
+                </items>
+            </social_x0020_links>
+        </items>
+    </items>
+</jcr:root>

@@ -2,11 +2,11 @@
 <jcr:root xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="dam:Asset">
     <jcr:content
-        jcr:lastModified="{Date}2016-09-28T17:11:06.529+05:30"
+        jcr:lastModified="{Date}2016-09-29T12:13:07.968+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
-            dam:extracted="{Date}2016-09-28T17:11:03.671+05:30"
+            dam:extracted="{Date}2016-09-29T12:13:07.085+05:30"
             dam:sha1="a20d443cda11c41890c22a56b88938aa38dc8ac6"
             dam:size="{Long}1419"
             dc:format="image/svg+xml"

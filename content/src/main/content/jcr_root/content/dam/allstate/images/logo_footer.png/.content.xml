@@ -2,28 +2,28 @@
 <jcr:root xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="dam:Asset">
     <jcr:content
-        jcr:lastModified="{Date}2016-09-29T12:13:08.928+05:30"
+        jcr:lastModified="{Date}2016-09-29T14:22:40.823+05:30"
         jcr:lastModifiedBy="admin"
         jcr:primaryType="dam:AssetContent">
         <metadata
             dam:Bitsperpixel="{Long}8"
-            dam:extracted="{Date}2016-09-29T12:13:08.287+05:30"
-            dam:Fileformat="GIF"
-            dam:MIMEtype="image/gif"
+            dam:extracted="{Date}2016-09-29T14:22:40.645+05:30"
+            dam:Fileformat="PNG"
+            dam:MIMEtype="image/png"
             dam:Numberofimages="{Long}1"
             dam:Numberoftextualcomments="{Long}0"
-            dam:Physicalheightindpi="{Long}72"
-            dam:Physicalheightininches="{Decimal}0.013888888992369175"
-            dam:Physicalwidthindpi="{Long}72"
-            dam:Physicalwidthininches="{Decimal}0.013888888992369175"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
             dam:Progressive="no"
-            dam:sha1="4ffebfc1255c0da73aab342450a9ee09fcaccb86"
-            dam:size="{Long}43"
-            dc:format="image/gif"
+            dam:sha1="35580fb0c1af44149f3c258402dd94e18312d0a3"
+            dam:size="{Long}4523"
+            dc:format="image/png"
             jcr:mixinTypes="[cq:Taggable]"
             jcr:primaryType="nt:unstructured"
-            tiff:ImageLength="{Long}1"
-            tiff:ImageWidth="{Long}1"/>
+            tiff:ImageLength="{Long}108"
+            tiff:ImageWidth="{Long}152"/>
         <related jcr:primaryType="nt:unstructured"/>
     </jcr:content>
 </jcr:root>
